@@ -1,0 +1,233 @@
+[24-Jan-2025 20:04:15 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 20:04:15 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 20:04:15 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 20:04:15 UTC] POST data: Array
+(
+    [csrf_token] => b7a547c0346505de36fc5bd515ef1e14937109d18e8ea8e738180dfd68e859e2
+    [email] => esm197496@gmail.com
+)
+
+[24-Jan-2025 23:04:15 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 23:04:15 Asia/Riyadh] Host: localhost
+[24-Jan-2025 23:04:15 Asia/Riyadh] Database: u402628076_sarh
+[24-Jan-2025 23:04:15 Asia/Riyadh] User: u402628076_admin
+[24-Jan-2025 23:04:15 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 23:04:15 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 23:04:15 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 23:04:15 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm197496@gmail.com
+[24-Jan-2025 23:04:15 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm197496@gmail.com
+[24-Jan-2025 23:04:15 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 23:04:15 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 23:04:15 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 23:04:15 Asia/Riyadh] Port: 587
+[24-Jan-2025 23:04:15 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 23:04:15 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 23:04:15 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 23:04:15 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm197496@gmail.com
+[24-Jan-2025 23:04:17 Asia/Riyadh] تم إرسال البريد بنجاح
+[25-Jan-2025 17:57:01 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[25-Jan-2025 17:57:01 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[25-Jan-2025 17:57:01 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[25-Jan-2025 17:57:01 UTC] POST data: Array
+(
+    [csrf_token] => 898d5b3e606ee608dca6571cb125b3a20343ccb75e11a72e5b2300e758aac117
+    [email] => kharj74@gmail.com
+)
+
+[25-Jan-2025 20:57:01 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[25-Jan-2025 20:57:01 Asia/Riyadh] Host: localhost
+[25-Jan-2025 20:57:01 Asia/Riyadh] Database: u402628076_sarh
+[25-Jan-2025 20:57:01 Asia/Riyadh] User: u402628076_admin
+[25-Jan-2025 20:57:01 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[25-Jan-2025 20:57:01 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[25-Jan-2025 20:57:01 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[25-Jan-2025 20:57:01 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: kharj74@gmail.com
+[25-Jan-2025 20:57:01 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني غير مسجل في النظام
+[25-Jan-2025 20:57:01 Asia/Riyadh] Stack trace: #0 {main}
+[25-Jan-2025 17:59:12 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[25-Jan-2025 17:59:12 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[25-Jan-2025 17:59:12 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[25-Jan-2025 17:59:12 UTC] POST data: Array
+(
+    [csrf_token] => 898d5b3e606ee608dca6571cb125b3a20343ccb75e11a72e5b2300e758aac117
+    [email] => esm1774@gmail.com
+)
+
+[25-Jan-2025 20:59:12 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[25-Jan-2025 20:59:12 Asia/Riyadh] Host: localhost
+[25-Jan-2025 20:59:12 Asia/Riyadh] Database: u402628076_sarh
+[25-Jan-2025 20:59:12 Asia/Riyadh] User: u402628076_admin
+[25-Jan-2025 20:59:12 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[25-Jan-2025 20:59:12 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[25-Jan-2025 20:59:12 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[25-Jan-2025 20:59:12 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[25-Jan-2025 20:59:12 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[25-Jan-2025 20:59:12 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[25-Jan-2025 20:59:12 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[25-Jan-2025 20:59:12 Asia/Riyadh] Host: smtp.titan.email
+[25-Jan-2025 20:59:12 Asia/Riyadh] Port: 587
+[25-Jan-2025 20:59:12 Asia/Riyadh] Username: support@ejarzone.com
+[25-Jan-2025 20:59:12 Asia/Riyadh] From Email: support@ejarzone.com
+[25-Jan-2025 20:59:12 Asia/Riyadh] Encryption: tls
+[25-Jan-2025 20:59:12 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[25-Jan-2025 20:59:13 Asia/Riyadh] تم إرسال البريد بنجاح
+[25-Jan-2025 21:00:01 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[25-Jan-2025 21:00:01 Asia/Riyadh] Host: localhost
+[25-Jan-2025 21:00:01 Asia/Riyadh] Database: u402628076_sarh
+[25-Jan-2025 21:00:01 Asia/Riyadh] User: u402628076_admin
+[25-Jan-2025 21:00:01 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[26-Jan-2025 12:56:24 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[26-Jan-2025 12:56:24 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[26-Jan-2025 12:56:24 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[26-Jan-2025 12:56:24 UTC] POST data: Array
+(
+    [csrf_token] => 133e7367245e75f3dbc04d6a4bb89c672653c1806e49a89af9fac02737f054b4
+    [email] => esm1774@gmail.com
+)
+
+[26-Jan-2025 15:56:24 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[26-Jan-2025 15:56:24 Asia/Riyadh] Host: localhost
+[26-Jan-2025 15:56:24 Asia/Riyadh] Database: u402628076_sarh
+[26-Jan-2025 15:56:24 Asia/Riyadh] User: u402628076_admin
+[26-Jan-2025 15:56:24 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[26-Jan-2025 15:56:24 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[26-Jan-2025 15:56:24 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[26-Jan-2025 15:56:24 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[26-Jan-2025 15:56:24 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[26-Jan-2025 15:56:24 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[26-Jan-2025 15:56:24 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[26-Jan-2025 15:56:24 Asia/Riyadh] Host: smtp.titan.email
+[26-Jan-2025 15:56:24 Asia/Riyadh] Port: 587
+[26-Jan-2025 15:56:24 Asia/Riyadh] Username: support@ejarzone.com
+[26-Jan-2025 15:56:24 Asia/Riyadh] From Email: support@ejarzone.com
+[26-Jan-2025 15:56:24 Asia/Riyadh] Encryption: tls
+[26-Jan-2025 15:56:24 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[26-Jan-2025 15:56:25 Asia/Riyadh] تم إرسال البريد بنجاح
+[27-Jan-2025 04:44:43 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[27-Jan-2025 04:44:43 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[27-Jan-2025 04:44:43 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[27-Jan-2025 04:44:43 UTC] POST data: Array
+(
+    [csrf_token] => 98604953f1e108d47cafeb88ea1d19fc07e597161e6678e82c23dd6205b7542d
+    [email] => kharj74@gmail.com
+)
+
+[27-Jan-2025 07:44:43 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[27-Jan-2025 07:44:43 Asia/Riyadh] Host: localhost
+[27-Jan-2025 07:44:43 Asia/Riyadh] Database: u402628076_sarh
+[27-Jan-2025 07:44:43 Asia/Riyadh] User: u402628076_admin
+[27-Jan-2025 07:44:43 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[27-Jan-2025 07:44:43 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[27-Jan-2025 07:44:43 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[27-Jan-2025 07:44:43 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: kharj74@gmail.com
+[27-Jan-2025 07:44:43 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني غير مسجل في النظام
+[27-Jan-2025 07:44:43 Asia/Riyadh] Stack trace: #0 {main}
+[27-Jan-2025 04:46:35 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[27-Jan-2025 04:46:35 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[27-Jan-2025 04:46:35 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[27-Jan-2025 04:46:35 UTC] POST data: Array
+(
+    [csrf_token] => 98604953f1e108d47cafeb88ea1d19fc07e597161e6678e82c23dd6205b7542d
+    [email] => kharj74@gmail.com
+)
+
+[27-Jan-2025 07:46:35 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[27-Jan-2025 07:46:35 Asia/Riyadh] Host: localhost
+[27-Jan-2025 07:46:35 Asia/Riyadh] Database: u402628076_sarh
+[27-Jan-2025 07:46:35 Asia/Riyadh] User: u402628076_admin
+[27-Jan-2025 07:46:35 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[27-Jan-2025 07:46:35 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[27-Jan-2025 07:46:35 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[27-Jan-2025 07:46:35 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: kharj74@gmail.com
+[27-Jan-2025 07:46:35 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني غير مسجل في النظام
+[27-Jan-2025 07:46:35 Asia/Riyadh] Stack trace: #0 {main}
+[19-Feb-2025 22:29:19 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[19-Feb-2025 22:29:19 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[19-Feb-2025 22:29:19 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[19-Feb-2025 22:29:19 UTC] POST data: Array
+(
+)
+
+[20-Feb-2025 01:29:19 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[20-Feb-2025 01:29:19 Asia/Riyadh] Stack trace: #0 {main}
+[20-Feb-2025 02:05:32 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[20-Feb-2025 02:05:32 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[20-Feb-2025 02:05:32 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[20-Feb-2025 02:05:32 UTC] POST data: Array
+(
+)
+
+[20-Feb-2025 05:05:32 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[20-Feb-2025 05:05:32 Asia/Riyadh] Stack trace: #0 {main}
+[10-Apr-2025 23:50:47 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[10-Apr-2025 23:50:47 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[10-Apr-2025 23:50:47 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[10-Apr-2025 23:50:47 UTC] POST data: Array
+(
+)
+
+[11-Apr-2025 02:50:47 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[11-Apr-2025 02:50:47 Asia/Riyadh] Stack trace: #0 {main}
+[20-Apr-2025 05:33:20 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[20-Apr-2025 05:33:20 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[20-Apr-2025 05:33:20 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[20-Apr-2025 05:33:20 UTC] POST data: Array
+(
+)
+
+[20-Apr-2025 08:33:20 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[20-Apr-2025 08:33:20 Asia/Riyadh] Stack trace: #0 {main}
+[20-Apr-2025 17:29:09 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[20-Apr-2025 17:29:09 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[20-Apr-2025 17:29:09 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[20-Apr-2025 17:29:09 UTC] POST data: Array
+(
+)
+
+[20-Apr-2025 20:29:09 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[20-Apr-2025 20:29:09 Asia/Riyadh] Stack trace: #0 {main}
+[30-Apr-2025 22:45:33 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[30-Apr-2025 22:45:33 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[30-Apr-2025 22:45:33 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[30-Apr-2025 22:45:33 UTC] POST data: Array
+(
+)
+
+[01-May-2025 01:45:33 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[01-May-2025 01:45:33 Asia/Riyadh] Stack trace: #0 {main}
+[11-May-2025 01:18:43 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[11-May-2025 01:18:43 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[11-May-2025 01:18:43 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[11-May-2025 01:18:43 UTC] POST data: Array
+(
+)
+
+[11-May-2025 04:18:43 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[11-May-2025 04:18:43 Asia/Riyadh] Stack trace: #0 {main}
+[12-May-2025 08:55:25 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[12-May-2025 08:55:25 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[12-May-2025 08:55:25 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[12-May-2025 08:55:25 UTC] POST data: Array
+(
+)
+
+[12-May-2025 11:55:25 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[12-May-2025 11:55:25 Asia/Riyadh] Stack trace: #0 {main}
+[12-May-2025 12:01:29 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[12-May-2025 12:01:29 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[12-May-2025 12:01:29 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[12-May-2025 12:01:29 UTC] POST data: Array
+(
+)
+
+[12-May-2025 15:01:29 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[12-May-2025 15:01:29 Asia/Riyadh] Stack trace: #0 {main}
+[16-May-2025 03:56:19 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[16-May-2025 03:56:19 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[16-May-2025 03:56:19 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[16-May-2025 03:56:19 UTC] POST data: Array
+(
+)
+
+[16-May-2025 06:56:19 Asia/Riyadh] خطأ في forgot_password_handler.php: البريد الإلكتروني مطلوب
+[16-May-2025 06:56:19 Asia/Riyadh] Stack trace: #0 {main}

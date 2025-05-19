@@ -1,0 +1,17 @@
+[2025-05-17 11:45:09] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-05-17 11:45:09] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"49692db9ac26ff68f10df4196b8d28b43639688ace62766afcad32d98739dcf2","username":"esm177","full_name":"ismail mohammed","email":"esm197496@gmail.com","password":"********","confirm_password":"********"}}
+[2025-05-17 11:45:09] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"confirm_password":"حقل تأكيد كلمة المرور يجب أن يطابق حقل كلمة المرور"}}
+[2025-05-17 11:46:04] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-05-17 11:46:04] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"49692db9ac26ff68f10df4196b8d28b43639688ace62766afcad32d98739dcf2","username":"esm177","full_name":"ismail mohammed","email":"esm197496@gmail.com","password":"********","confirm_password":"********"}}
+[2025-05-17 11:46:04] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"confirm_password":"حقل تأكيد كلمة المرور يجب أن يطابق حقل كلمة المرور"}}
+[2025-05-17 11:46:20] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-05-17 11:46:20] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"49692db9ac26ff68f10df4196b8d28b43639688ace62766afcad32d98739dcf2","username":"esm177","full_name":"ismail mohammed","email":"esm197496@gmail.com","password":"********","confirm_password":"********"}}
+[2025-05-17 11:46:20] [WARNING] [register_handler.php:216] محاولة تسجيل ببريد إلكتروني موجود: esm197496@gmail.com {"email":"esm197496@gmail.com"}
+[2025-05-17 11:46:20] [WARNING] [register_handler.php:377] البريد الإلكتروني موجود بالفعل {"email":"esm197496@gmail.com"}
+[2025-05-17 11:46:36] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-05-17 11:46:36] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"49692db9ac26ff68f10df4196b8d28b43639688ace62766afcad32d98739dcf2","username":"esm177","full_name":"ismail mohammed","email":"f.m@gmail.com","password":"********","confirm_password":"********"}}
+[2025-05-17 11:46:36] [INFO] [register_handler.php:107] تم بدء معاملة جديدة 
+[2025-05-17 11:46:36] [INFO] [register_handler.php:298] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"esm177","password":"********","full_name":"ismail mohammed","email":"f.m@gmail.com"}}
+[2025-05-17 11:46:36] [INFO] [register_handler.php:121] تم تأكيد المعاملة بنجاح 
+[2025-05-17 11:46:36] [INFO] [register_handler.php:316] تم تسجيل المستخدم بنجاح: esm177 {"username":"esm177"}
+[2025-05-17 11:46:36] [INFO] [register_handler.php:392] تم إكمال عملية التسجيل بنجاح للمستخدم: esm177 {"username":"esm177"}

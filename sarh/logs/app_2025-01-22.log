@@ -1,0 +1,118 @@
+[2025-01-22 18:38:54] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 18:38:54] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 18:38:54] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 18:38:54] [ERROR] [register_handler.php:73] خطأ في قاعدة البيانات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list' {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list'","code":"42S22","file":"C:\\xampp\\htdocs\\alsarh\\register_handler.php","line":235}
+[2025-01-22 18:38:54] [INFO] [register_handler.php:86] تم التراجع عن العملية بنجاح 
+[2025-01-22 18:38:54] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 18:55:19] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 18:55:19] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 18:55:19] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 18:55:19] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 18:55:19] [INFO] [register_handler.php:241] تم تسجيل المستخدم بنجاح: test {"username":"test"}
+[2025-01-22 18:55:19] [INFO] [register_handler.php:283] تم إكمال عملية التسجيل بنجاح للمستخدم: test {"username":"test"}
+[2025-01-22 18:55:19] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 18:56:05] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 18:56:05] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 18:56:05] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 18:56:05] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 18:56:05] [INFO] [register_handler.php:241] تم تسجيل المستخدم بنجاح: test2 {"username":"test2"}
+[2025-01-22 18:56:05] [INFO] [register_handler.php:283] تم إكمال عملية التسجيل بنجاح للمستخدم: test2 {"username":"test2"}
+[2025-01-22 18:56:05] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:00:28] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:00:28] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:00:28] [WARNING] [register_handler.php:166] محاولة تسجيل باسم مستخدم موجود: test2 {"username":"test2"}
+[2025-01-22 19:00:28] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:03:53] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:03:53] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:03:53] [WARNING] [register_handler.php:166] محاولة تسجيل باسم مستخدم موجود: test2 {"username":"test2"}
+[2025-01-22 19:03:53] [INFO] [register_handler.php:319] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:04:46] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:04:46] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:04:46] [WARNING] [register_handler.php:166] محاولة تسجيل باسم مستخدم موجود: test2 {"username":"test2"}
+[2025-01-22 19:04:46] [INFO] [register_handler.php:319] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:06:30] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:06:30] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:06:30] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 19:06:30] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:06:30] [INFO] [register_handler.php:241] تم تسجيل المستخدم بنجاح: test3 {"username":"test3"}
+[2025-01-22 19:06:30] [INFO] [register_handler.php:283] تم إكمال عملية التسجيل بنجاح للمستخدم: test3 {"username":"test3"}
+[2025-01-22 19:06:30] [INFO] [register_handler.php:319] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:18:32] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:18:32] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:18:32] [WARNING] [register_handler.php:166] محاولة تسجيل باسم مستخدم موجود: test2 {"username":"test2"}
+[2025-01-22 19:18:32] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:23:57] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:23:57] [INFO] [register_handler.php:252] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:23:57] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 19:23:57] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:23:57] [INFO] [register_handler.php:241] تم تسجيل المستخدم بنجاح: test23 {"username":"test23"}
+[2025-01-22 19:23:57] [INFO] [register_handler.php:283] تم إكمال عملية التسجيل بنجاح للمستخدم: test23 {"username":"test23"}
+[2025-01-22 19:23:57] [INFO] [register_handler.php:318] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:31:48] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:31:48] [INFO] [register_handler.php:282] بدء معالجة طلب تسجيل جديد 
+[2025-01-22 19:31:48] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 19:31:48] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:31:48] [INFO] [register_handler.php:271] تم تسجيل المستخدم بنجاح: test13 {"username":"test13"}
+[2025-01-22 19:31:48] [INFO] [register_handler.php:313] تم إكمال عملية التسجيل بنجاح للمستخدم: test13 {"username":"test13"}
+[2025-01-22 19:31:48] [INFO] [register_handler.php:348] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:38:51] [INFO] [register_handler.php:32] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:38:51] [INFO] [register_handler.php:301] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","username":"test43","full_name":"test23","email":"esm1744@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-22 19:38:51] [INFO] [register_handler.php:100] تم بدء معاملة جديدة 
+[2025-01-22 19:38:51] [INFO] [register_handler.php:271] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"test43","password":"********","full_name":"test23","email":"esm1744@gmail.com"}}
+[2025-01-22 19:38:51] [INFO] [register_handler.php:114] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:38:51] [INFO] [register_handler.php:289] تم تسجيل المستخدم بنجاح: test43 {"username":"test43"}
+[2025-01-22 19:38:51] [INFO] [register_handler.php:342] تم إكمال عملية التسجيل بنجاح للمستخدم: test43 {"username":"test43"}
+[2025-01-22 19:38:51] [INFO] [register_handler.php:381] إغلاق اتصال قاعدة البيانات 
+[2025-01-22 19:44:25] [INFO] [register_handler.php:33] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:44:25] [INFO] [register_handler.php:303] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","username":"test413","full_name":"test23","email":"esm17414@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-22 19:44:25] [INFO] [register_handler.php:102] تم بدء معاملة جديدة 
+[2025-01-22 19:44:25] [INFO] [register_handler.php:273] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"test413","password":"********","full_name":"test23","email":"esm17414@gmail.com"}}
+[2025-01-22 19:44:25] [INFO] [register_handler.php:116] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:44:25] [INFO] [register_handler.php:291] تم تسجيل المستخدم بنجاح: test413 {"username":"test413"}
+[2025-01-22 19:44:25] [INFO] [register_handler.php:349] تم إكمال عملية التسجيل بنجاح للمستخدم: test413 {"username":"test413"}
+[2025-01-22 19:49:50] [INFO] [register_handler.php:33] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 19:49:50] [INFO] [register_handler.php:303] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","username":"test4213","full_name":"test23","email":"esm174214@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-22 19:49:50] [INFO] [register_handler.php:102] تم بدء معاملة جديدة 
+[2025-01-22 19:49:50] [INFO] [register_handler.php:273] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"test4213","password":"********","full_name":"test23","email":"esm174214@gmail.com"}}
+[2025-01-22 19:49:50] [INFO] [register_handler.php:116] تم تأكيد المعاملة بنجاح 
+[2025-01-22 19:49:50] [INFO] [register_handler.php:291] تم تسجيل المستخدم بنجاح: test4213 {"username":"test4213"}
+[2025-01-22 19:49:50] [INFO] [register_handler.php:349] تم إكمال عملية التسجيل بنجاح للمستخدم: test4213 {"username":"test4213"}
+[2025-01-22 20:04:59] [INFO] [register_handler.php:33] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 20:04:59] [INFO] [register_handler.php:305] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","username":"ete1ee","full_name":"eeer","email":"kha1rj714@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-22 20:04:59] [INFO] [register_handler.php:102] تم بدء معاملة جديدة 
+[2025-01-22 20:04:59] [INFO] [register_handler.php:273] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"ete1ee","password":"********","full_name":"eeer","email":"kha1rj714@gmail.com"}}
+[2025-01-22 20:04:59] [INFO] [register_handler.php:116] تم تأكيد المعاملة بنجاح 
+[2025-01-22 20:04:59] [INFO] [register_handler.php:291] تم تسجيل المستخدم بنجاح: ete1ee {"username":"ete1ee"}
+[2025-01-22 20:04:59] [INFO] [register_handler.php:367] تم إكمال عملية التسجيل بنجاح للمستخدم: ete1ee {"username":"ete1ee"}
+[2025-01-22 20:10:22] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 20:10:22] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","username":"test1112","full_name":"fd","email":"kharj7224@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-22 20:10:22] [INFO] [register_handler.php:107] تم بدء معاملة جديدة 
+[2025-01-22 20:10:22] [INFO] [register_handler.php:298] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"test1112","password":"********","full_name":"fd","email":"kharj7224@gmail.com"}}
+[2025-01-22 20:10:22] [INFO] [register_handler.php:121] تم تأكيد المعاملة بنجاح 
+[2025-01-22 20:10:22] [INFO] [register_handler.php:316] تم تسجيل المستخدم بنجاح: test1112 {"username":"test1112"}
+[2025-01-22 20:10:22] [INFO] [register_handler.php:392] تم إكمال عملية التسجيل بنجاح للمستخدم: test1112 {"username":"test1112"}
+[2025-01-22 21:09:40] [INFO] [forgot_password_handler.php:56] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 21:09:40] [INFO] [forgot_password_handler.php:162] بدء معالجة طلب استعادة كلمة المرور {"post_data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","email":"esm1774@gmail.com"}}
+[2025-01-22 21:09:40] [ERROR] [forgot_password_handler.php:97] خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'"}
+[2025-01-22 21:09:40] [ERROR] [forgot_password_handler.php:216] خطأ في معالجة طلب استعادة كلمة المرور: خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'","trace":"#0 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(191): ForgotPasswordHandler->checkEmailExists('esm1774@gmail.c...')\n#1 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(233): ForgotPasswordHandler->handleRequest(Array)\n#2 {main}"}
+[2025-01-22 21:10:12] [INFO] [forgot_password_handler.php:56] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 21:10:12] [INFO] [forgot_password_handler.php:162] بدء معالجة طلب استعادة كلمة المرور {"post_data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","email":"esm"}}
+[2025-01-22 21:10:12] [WARNING] [forgot_password_handler.php:182] فشل التحقق من صحة البيانات {"errors":{"email":"حقل البريد الإلكتروني يجب أن يكون بريد إلكتروني صحيح"}}
+[2025-01-22 21:10:15] [INFO] [forgot_password_handler.php:56] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 21:10:15] [INFO] [forgot_password_handler.php:162] بدء معالجة طلب استعادة كلمة المرور {"post_data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","email":"esm1774@gmail.com"}}
+[2025-01-22 21:10:15] [ERROR] [forgot_password_handler.php:97] خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'"}
+[2025-01-22 21:10:15] [ERROR] [forgot_password_handler.php:216] خطأ في معالجة طلب استعادة كلمة المرور: خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'","trace":"#0 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(191): ForgotPasswordHandler->checkEmailExists('esm1774@gmail.c...')\n#1 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(233): ForgotPasswordHandler->handleRequest(Array)\n#2 {main}"}
+[2025-01-22 23:17:04] [INFO] [forgot_password_handler.php:66] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 23:17:04] [INFO] [forgot_password_handler.php:172] بدء معالجة طلب استعادة كلمة المرور {"post_data":{"csrf_token":"d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5","email":"esm1774@gmail.com"}}
+[2025-01-22 23:17:04] [ERROR] [forgot_password_handler.php:107] خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'"}
+[2025-01-22 23:17:04] [ERROR] [forgot_password_handler.php:226] خطأ في معالجة طلب استعادة كلمة المرور: خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'","trace":"#0 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(201): ForgotPasswordHandler->checkEmailExists('esm1774@gmail.c...')\n#1 C:\\xampp\\htdocs\\alsarh\\forgot_password_handler.php(246): ForgotPasswordHandler->handleRequest(Array)\n#2 {main}"}
+[2025-01-22 23:20:13] [INFO] [forgot_password_handler.php:72] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 23:20:13] [ERROR] [forgot_password_handler.php:122] خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' {"message":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'"}
+[2025-01-22 23:22:56] [INFO] [forgot_password_handler.php:72] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 23:22:56] [INFO] [forgot_password_handler.php:115] التحقق من وجود البريد الإلكتروني {"email":"esm1774@gmail.com","exists":true}
+[2025-01-22 23:22:56] [INFO] [forgot_password_handler.php:155] حفظ رمز إعادة التعيين {"email":"esm1774@gmail.com","success":true}
+[2025-01-22 23:23:01] [ERROR] [forgot_password_handler.php:181] خطأ في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate. {"message":"فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.","email":"esm1774@gmail.com"}
+[2025-01-22 23:26:30] [INFO] [forgot_password_handler.php:72] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-22 23:26:30] [INFO] [forgot_password_handler.php:115] التحقق من وجود البريد الإلكتروني {"email":"esm1774@gmail.com","exists":true}
+[2025-01-22 23:26:30] [INFO] [forgot_password_handler.php:155] حفظ رمز إعادة التعيين {"email":"esm1774@gmail.com","success":true}
+[2025-01-22 23:26:36] [ERROR] [forgot_password_handler.php:181] خطأ في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate. {"message":"فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.","email":"esm1774@gmail.com"}

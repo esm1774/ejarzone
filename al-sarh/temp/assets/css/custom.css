@@ -1,0 +1,240 @@
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --text-color: #212529;
+    --border-color: #dee2e6;
+    --background-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.auth-header img {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.auth-header h1 {
+    font-size: 1.75rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.auth-header p {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    height: calc(3.5rem + 2px);
+    padding: 0.75rem 3rem 0.75rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+}
+
+.form-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-color);
+    opacity: 0.7;
+    z-index: 4;
+    font-size: 1.2rem;
+}
+
+.password-toggle {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.7;
+    z-index: 4;
+    transition: all 0.2s ease;
+}
+
+.password-toggle:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--danger-color);
+}
+
+.form-control.is-invalid {
+    border-color: var(--danger-color);
+    padding-left: 2.5rem;
+    background-image: none;
+}
+
+.form-control.is-valid {
+    border-color: var(--success-color);
+    padding-left: 2.5rem;
+    background-image: none;
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.password-requirements {
+    display: none;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.password-requirements.show {
+    display: block;
+}
+
+.requirement {
+    margin-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.requirement:last-child {
+    margin-bottom: 0;
+}
+
+.requirement i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+}
+
+.requirement.valid {
+    color: var(--success-color);
+}
+
+.requirement.invalid {
+    color: var(--danger-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    height: calc(3.5rem + 2px);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-1px);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.back-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.back-link:hover {
+    color: var(--primary-color);
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.alert-success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+@media (max-width: 576px) {
+    .auth-container {
+        padding: 1.5rem;
+    }
+
+    .auth-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+    }
+}

@@ -1,0 +1,502 @@
+[22-Jan-2025 20:10:22 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:10:22 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:22:52 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:22:52 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:22:52 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:23:29 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:23:29 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:23:29 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:38:58 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:38:58 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:38:58 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:39:54 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:39:54 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:39:54 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:42:18 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:42:18 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:42:18 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:51:44 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:51:44 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:51:44 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:52:00 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:52:00 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:52:00 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:56:35 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:56:35 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:56:35 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:59:58 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:59:58 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:59:58 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 20:59:59 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 20:59:59 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 20:59:59 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 21:06:17 Europe/Berlin] PHP Warning:  The magic method Logger::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Logger.php on line 91
+[22-Jan-2025 21:06:17 Europe/Berlin] PHP Warning:  The magic method Validator::__wakeup() must have public visibility in C:\xampp\htdocs\alsarh\includes\Validator.php on line 166
+[22-Jan-2025 21:06:17 Europe/Berlin] Call to undefined function getDatabaseConnection()
+[22-Jan-2025 21:17:04 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[22-Jan-2025 23:17:04 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[22-Jan-2025 23:17:04 Asia/Riyadh] طلب POST تم استلامه
+[22-Jan-2025 23:17:04 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 21:20:13 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[22-Jan-2025 23:20:13 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[22-Jan-2025 23:20:13 Asia/Riyadh] طلب POST تم استلامه
+[22-Jan-2025 23:20:13 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:20:13 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[22-Jan-2025 23:20:13 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[22-Jan-2025 23:20:13 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[22-Jan-2025 23:20:13 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[22-Jan-2025 23:20:13 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[22-Jan-2025 23:20:13 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:20:13 Asia/Riyadh] التحقق من CSRF token
+[22-Jan-2025 23:20:13 Asia/Riyadh] نجح التحقق من CSRF token
+[22-Jan-2025 23:20:13 Asia/Riyadh] إعداد قواعد التحقق
+[22-Jan-2025 23:20:13 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esm1774@gmail.com
+[22-Jan-2025 23:20:13 Asia/Riyadh] خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+[22-Jan-2025 23:20:13 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: خطأ في التحقق من البريد الإلكتروني: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+[22-Jan-2025 23:20:13 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(223): ForgotPasswordHandler->checkEmailExists('esm1774@gmail.c...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(267): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 21:22:56 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[22-Jan-2025 23:22:56 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[22-Jan-2025 23:22:56 Asia/Riyadh] طلب POST تم استلامه
+[22-Jan-2025 23:22:56 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:22:56 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[22-Jan-2025 23:22:56 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[22-Jan-2025 23:22:56 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[22-Jan-2025 23:22:56 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[22-Jan-2025 23:22:56 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[22-Jan-2025 23:22:56 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:22:56 Asia/Riyadh] التحقق من CSRF token
+[22-Jan-2025 23:22:56 Asia/Riyadh] نجح التحقق من CSRF token
+[22-Jan-2025 23:22:56 Asia/Riyadh] إعداد قواعد التحقق
+[22-Jan-2025 23:22:56 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esm1774@gmail.com
+[22-Jan-2025 23:22:56 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[22-Jan-2025 23:22:56 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[22-Jan-2025 23:22:56 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[22-Jan-2025 23:22:56 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[22-Jan-2025 23:22:56 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[22-Jan-2025 23:22:56 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esm1774@gmail.com
+[22-Jan-2025 23:22:56 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[22-Jan-2025 23:23:01 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:23:01 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[22-Jan-2025 23:23:01 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:23:01 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:23:01 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(239): ForgotPasswordHandler->sendResetEmail('esm1774@gmail.c...', 'f36e1b0e357c35b...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(267): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 21:26:30 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[22-Jan-2025 23:26:30 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[22-Jan-2025 23:26:30 Asia/Riyadh] طلب POST تم استلامه
+[22-Jan-2025 23:26:30 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:26:30 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[22-Jan-2025 23:26:30 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[22-Jan-2025 23:26:30 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[22-Jan-2025 23:26:30 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[22-Jan-2025 23:26:30 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[22-Jan-2025 23:26:30 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => d3b7d60b85748a2e26c521a4e0fddffd0223100218beb7ee983d1be62ee643d5
+    [email] => esm1774@gmail.com
+)
+
+[22-Jan-2025 23:26:30 Asia/Riyadh] التحقق من CSRF token
+[22-Jan-2025 23:26:30 Asia/Riyadh] نجح التحقق من CSRF token
+[22-Jan-2025 23:26:30 Asia/Riyadh] إعداد قواعد التحقق
+[22-Jan-2025 23:26:30 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esm1774@gmail.com
+[22-Jan-2025 23:26:30 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[22-Jan-2025 23:26:30 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[22-Jan-2025 23:26:30 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[22-Jan-2025 23:26:30 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[22-Jan-2025 23:26:30 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[22-Jan-2025 23:26:30 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esm1774@gmail.com
+[22-Jan-2025 23:26:30 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[22-Jan-2025 23:26:30 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[22-Jan-2025 23:26:30 Asia/Riyadh] Port: 2525
+[22-Jan-2025 23:26:30 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[22-Jan-2025 23:26:30 Asia/Riyadh] From Email: noreply@alsarh.com
+[22-Jan-2025 23:26:30 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[22-Jan-2025 23:26:36 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:26:36 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[22-Jan-2025 23:26:36 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:26:36 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[22-Jan-2025 23:26:36 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(239): ForgotPasswordHandler->sendResetEmail('esm1774@gmail.c...', '383cf5234ff239d...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(267): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:02:08 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:02:08 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:02:08 Asia/Riyadh] طلب POST تم استلامه
+[23-Jan-2025 00:02:08 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:02:08 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:02:08 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:02:08 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:02:08 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:02:08 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:02:08 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:02:08 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:02:08 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:02:08 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:02:08 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:02:08 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:02:08 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:02:08 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:02:08 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:02:08 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:02:08 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:02:08 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:02:08 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:02:08 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:02:08 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:02:08 Asia/Riyadh] From Email: noreply@alsarh.com
+[23-Jan-2025 00:02:08 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:02:11 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:02:11 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:02:11 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:02:11 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:02:11 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(239): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'b73de80c456a47b...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(267): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:06:00 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:06:00 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:06:00 Asia/Riyadh] طلب POST تم استلامه
+[23-Jan-2025 00:06:00 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:06:00 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:06:00 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:06:00 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:06:00 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:06:00 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:06:00 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:06:00 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:06:00 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:06:00 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:06:00 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:06:00 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:06:00 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:06:00 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:06:00 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:06:00 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:06:00 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:06:00 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:06:00 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:06:00 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:06:00 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:06:00 Asia/Riyadh] From Email: noreply@alsarh.com
+[23-Jan-2025 00:06:00 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:06:03 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:06:03 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:06:03 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:06:03 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:06:03 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(239): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'c93e62093f84246...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(270): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:08:12 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:08:12 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:08:12 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:08:12 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:08:12 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:08:12 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:08:12 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:08:12 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:08:12 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:08:12 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:08:12 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:08:12 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:08:12 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:08:12 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:08:12 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:08:12 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:08:12 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:08:12 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:08:12 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:08:12 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:08:12 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:08:12 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:08:12 Asia/Riyadh] From Email: noreply@alsarh.com
+[23-Jan-2025 00:08:12 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:08:15 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:08:15 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:08:15 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:08:15 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:08:15 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(246): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'd42760d6a6fecc5...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(278): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:23:09 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:23:09 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:23:09 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:23:09 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:23:09 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:23:09 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:23:09 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:23:09 Asia/Riyadh] POST data: Array
+(
+    [csrf_token] => 13602449dc45d175a51cd4d1f4bcf68f1953c7981cb1f7269a762ed89ab8ca8a
+    [email] => esmail@alnokhbah.sa
+)
+
+[23-Jan-2025 00:23:09 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:23:09 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:23:09 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:23:09 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:23:09 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:23:09 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:23:09 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:23:09 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:23:09 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:23:09 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:23:09 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:23:09 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:23:09 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:23:09 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:23:09 Asia/Riyadh] From Email: noreply@alsarh.com
+[23-Jan-2025 00:23:09 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:23:10 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:23:10 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:23:10 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:23:10 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:23:10 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(246): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'b8fca662bad8760...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(278): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:26:22 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:26:22 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:26:22 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:26:22 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:26:22 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:26:22 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:26:22 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:26:22 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:26:22 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:26:22 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:26:22 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:26:22 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:26:22 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:26:22 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:26:22 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:26:22 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:26:22 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:26:22 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:26:22 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:26:22 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:26:22 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:26:22 Asia/Riyadh] From Email: noreply@alsarh.com
+[23-Jan-2025 00:26:22 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:26:25 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:26:25 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:26:25 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:26:25 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:26:25 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(235): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'e4721eeb4f2d2dc...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(273): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:28:39 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:28:39 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:28:39 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:28:39 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:28:39 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:28:39 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:28:39 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:28:39 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:28:39 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:28:39 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:28:39 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:28:39 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:28:39 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:28:39 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:28:39 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:28:40 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:28:40 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:28:40 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:28:40 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:28:40 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:28:40 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:28:40 Asia/Riyadh] From Email: esm1774@gmail.com
+[23-Jan-2025 00:28:40 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:28:42 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:28:42 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:28:42 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:28:42 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:28:42 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(235): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'da8357062a3166c...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(273): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[22-Jan-2025 22:41:16 Europe/Berlin] بدء تنفيذ forgot_password_handler.php
+[23-Jan-2025 00:41:16 Asia/Riyadh] تم تحميل جميع الملفات المطلوبة
+[23-Jan-2025 00:41:16 Asia/Riyadh] بدء تهيئة ForgotPasswordHandler
+[23-Jan-2025 00:41:16 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 00:41:16 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 00:41:16 Asia/Riyadh] تم تهيئة ForgotPasswordHandler بنجاح
+[23-Jan-2025 00:41:16 Asia/Riyadh] بدء معالجة طلب استعادة كلمة المرور
+[23-Jan-2025 00:41:16 Asia/Riyadh] التحقق من CSRF token
+[23-Jan-2025 00:41:16 Asia/Riyadh] نجح التحقق من CSRF token
+[23-Jan-2025 00:41:16 Asia/Riyadh] إعداد قواعد التحقق
+[23-Jan-2025 00:41:16 Asia/Riyadh] التحقق من وجود البريد الإلكتروني: esmail@alnokhbah.sa
+[23-Jan-2025 00:41:16 Asia/Riyadh] نتيجة التحقق من البريد الإلكتروني: موجود
+[23-Jan-2025 00:41:16 Asia/Riyadh] إنشاء رمز إعادة التعيين
+[23-Jan-2025 00:41:16 Asia/Riyadh] تم إنشاء رمز إعادة التعيين بنجاح
+[23-Jan-2025 00:41:16 Asia/Riyadh] محاولة حفظ رمز إعادة التعيين
+[23-Jan-2025 00:41:16 Asia/Riyadh] نتيجة حفظ رمز إعادة التعيين: نجاح
+[23-Jan-2025 00:41:16 Asia/Riyadh] محاولة إرسال بريد إعادة التعيين إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:41:16 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 00:41:16 Asia/Riyadh] Host: sandbox.smtp.mailtrap.io
+[23-Jan-2025 00:41:16 Asia/Riyadh] Port: 2525
+[23-Jan-2025 00:41:16 Asia/Riyadh] Username: 6fc2a5c6d0c0b4
+[23-Jan-2025 00:41:16 Asia/Riyadh] From Email: esm1774@gmail.com
+[23-Jan-2025 00:41:16 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esmail@alnokhbah.sa
+[23-Jan-2025 00:41:19 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:41:19 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.SMTP server error: QUIT command failed
+[23-Jan-2025 00:41:19 Asia/Riyadh] خطأ في إرسال البريد: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:41:19 Asia/Riyadh] خطأ في معالجة طلب استعادة كلمة المرور: فشل في إرسال بريد إعادة التعيين: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 00:41:19 Asia/Riyadh] Stack trace: #0 C:\xampp\htdocs\alsarh\forgot_password_handler.php(235): ForgotPasswordHandler->sendResetEmail('esmail@alnokhba...', 'a2d395463042e1f...')
+#1 C:\xampp\htdocs\alsarh\forgot_password_handler.php(273): ForgotPasswordHandler->handleRequest(Array)
+#2 {main}
+[23-Jan-2025 13:22:23 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:22:23 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:22:23 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:22:23 Asia/Riyadh] User: root
+[23-Jan-2025 13:22:23 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:22:43 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:22:43 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:22:43 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:22:43 Asia/Riyadh] User: root
+[23-Jan-2025 13:22:43 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:23:02 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:23:02 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:23:02 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:23:02 Asia/Riyadh] User: root
+[23-Jan-2025 13:23:02 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:24:09 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:24:09 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:24:09 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:24:09 Asia/Riyadh] User: root
+[23-Jan-2025 13:24:09 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:24:36 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:24:36 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:24:36 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:24:36 Asia/Riyadh] User: root
+[23-Jan-2025 13:24:36 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:24:55 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:24:55 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:24:55 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:24:55 Asia/Riyadh] User: root
+[23-Jan-2025 13:24:55 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:24:57 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:24:57 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:24:57 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:24:57 Asia/Riyadh] User: root
+[23-Jan-2025 13:24:57 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:24:57 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:24:57 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:24:57 Asia/Riyadh] Database: alsarh
+[23-Jan-2025 13:24:57 Asia/Riyadh] User: root
+[23-Jan-2025 13:24:57 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 05:52:38 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 05:52:38 Asia/Riyadh] Host: localhost
+[24-Jan-2025 05:52:38 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 05:52:38 Asia/Riyadh] User: root
+[24-Jan-2025 05:52:38 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 05:54:43 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 05:54:43 Asia/Riyadh] Host: localhost
+[24-Jan-2025 05:54:43 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 05:54:43 Asia/Riyadh] User: root
+[24-Jan-2025 05:54:43 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:34 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:34 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:34 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:34 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:34 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:54 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:54 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:54 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:54 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:54 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:55 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:55 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:55 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:55 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:55 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:55 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:55 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:55 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:55 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:55 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:56 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:56 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:56 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:56 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:56 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:03:57 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:03:57 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:03:57 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:03:57 Asia/Riyadh] User: root
+[24-Jan-2025 06:03:57 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:19:56 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:19:56 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:19:56 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:19:56 Asia/Riyadh] User: root
+[24-Jan-2025 06:19:56 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:34:04 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:34:04 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:34:04 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:34:04 Asia/Riyadh] User: root
+[24-Jan-2025 06:34:04 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 06:44:34 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 06:44:34 Asia/Riyadh] Host: localhost
+[24-Jan-2025 06:44:34 Asia/Riyadh] Database: alsarh
+[24-Jan-2025 06:44:34 Asia/Riyadh] User: root
+[24-Jan-2025 06:44:34 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[26-Jan-2025 18:02:38 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[26-Jan-2025 18:02:38 Asia/Riyadh] Host: localhost
+[26-Jan-2025 18:02:38 Asia/Riyadh] Database: u402628076_app_data
+[26-Jan-2025 18:02:38 Asia/Riyadh] User: u402628076_app
+[26-Jan-2025 18:02:38 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح

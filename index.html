@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjarZone - إدارة العقارات والفندقية المفروشة</title>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 3px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+            color: #333;
+        }
+        @media screen and (max-width: 968px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: white;
+                width: 100%;
+                padding: 20px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header .logo img {
+            width: 100px;
+            height: auto;
+            max-width: 100%;
+        }
+        header .buttons a {
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            margin-left: 10px;
+            display: inline-block;
+        }
+        header .buttons a.login {
+            background-color: white;
+            color: #007BFF;
+        }
+        header .buttons a.signup {
+            background-color: #007BFF;
+            color: white;
+            border: 1px solid white;
+        }
+        .hero-section {
+            background: url('app2/assets/images/lod.png') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            margin-top: 60px;
+        }
+        .hero-section h1 {
+            font-size: clamp(24px, 5vw, 48px);
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: clamp(16px, 3vw, 20px);
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+        .hero-section .cta-button {
+            background-color: #FFA500;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: clamp(16px, 2vw, 20px);
+            display: inline-block;
+            margin: 10px;
+        }
+        .features-section, .pricing-section, .testimonials-section, .cta-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .features-section h2, .pricing-section h2, .testimonials-section h2, .cta-section h2 {
+            font-size: clamp(24px, 4vw, 36px);
+            margin-bottom: 30px;
+        }
+        .feature-items-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 15px;
+        }
+        .feature-item {
+            flex: 1 1 300px;
+            max-width: 400px;
+            margin: 15px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-item i {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #007BFF;
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 50%;
+        }
+
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .feature-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .pricing-section {
+            padding: 80px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .pricing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pricing-card.popular {
+            border: 2px solid #007bff;
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: 20px;
+            right: -35px;
+            background: #007bff;
+            color: white;
+            padding: 5px 40px;
+            transform: rotate(45deg);
+            font-size: 14px;
+        }
+
+        .price {
+            font-size: 2.5em;
+            color: #333;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .price span {
+            font-size: 0.4em;
+            color: #666;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+            text-align: right;
+        }
+
+        .features-list li {
+            margin: 15px 0;
+            color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .features-list li i {
+            color: #28a745;
+        }
+
+        .features-list li.not-included {
+            color: #999;
+        }
+
+        .features-list li.not-included i {
+            color: #dc3545;
+        }
+
+        .subscribe-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .subscribe-btn:hover {
+            background: #0056b3;
+        }
+        .pricing-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 15px;
+        }
+        .pricing-card {
+            flex: 1 1 300px;
+            max-width: 400px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .pricing-card h3 {
+            font-size: clamp(20px, 3vw, 24px);
+            margin-bottom: 20px;
+        }
+        .pricing-card .price {
+            font-size: clamp(24px, 4vw, 36px);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .testimonials-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            row-gap: 80px;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 1200px) {
+            .testimonials-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            text-align: right;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .stars {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        .client-info {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 15px;
+        }
+
+        .client-info img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .client-details {
+            text-align: right;
+        }
+
+        .client-name {
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .client-position {
+            color: #666;
+            font-size: 0.9em;
+            margin: 0;
+        }
+        .testimonial-card p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .about-section {
+            padding: 80px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .about-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .about-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .about-feature {
+            flex: 1 1 250px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .about-feature i {
+            font-size: 36px;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+        .contact-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #007BFF 0%, #00bfff 100%);
+            color: white;
+        }
+
+        .contact-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-card {
+            flex: 1 1 300px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact-card i {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .contact-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .contact-card p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .social-links {
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin: 0 10px;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+        }
+        .faq-section {
+            padding: 80px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .faq-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background-color: #f0f7ff;
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .faq-item.active .faq-question {
+            background-color: #f0f7ff;
+            color: #007BFF;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 20px;
+            max-height: 300px;
+        }
+
+        .faq-search {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .faq-search input {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px 25px;
+            border: 2px solid #e0e0e0;
+            border-radius: 30px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-search input:focus {
+            border-color: #007BFF;
+        }
+
+        .faq-categories {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .faq-category {
+            padding: 8px 20px;
+            border-radius: 20px;
+            background-color: white;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+
+        .faq-category:hover,
+        .faq-category.active {
+            background-color: #007BFF;
+            color: white;
+            border-color: #007BFF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 3px 10px;
+            }
+            header .buttons a {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+            .hero-section {
+                padding: 60px 10px;
+            }
+            .feature-item, .pricing-card, .testimonial-card {
+                margin: 5px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            header .logo img {
+                width: 80px;
+            }
+            header .buttons a {
+                padding: 5px 10px;
+                font-size: 13px;
+                margin-left: 5px;
+            }
+            .hero-section .cta-button {
+                padding: 10px 20px;
+                width: 80%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="app2/assets/images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="#features">المميزات</a>
+            <a href="#pricing">الأسعار</a>
+            <a href="#about">عنّا</a>
+            <a href="#contact">اتصل بنا</a>
+            <a href="#faq">الأسئلة الشائعة</a>
+        </nav>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="buttons">
+            <a href="app2/login.php" class="login">تسجيل الدخول</a>
+            <a href="app2/register.php" class="signup">حساب جديد</a>
+        </div>
+    </header>
+    <div class="content">
+        <section class="hero-section">
+            <h1>نظام متكامل لإدارة العقارات والشقق والغرف الفندقية</h1>
+            <p>مع EjarZone، يمكنك إدارة إيجاراتك، مبانيك، وحداتك، الصيانة، والمستأجرين بسهولة وكفاءة.</p>
+            <a href="app2/register.php" class="cta-button">ابدأ الآن مجانًا لمدة 15 يومًا</a>
+        </section>
+        <section class="features-section" id="features">
+            <h2>ما الذي يجعل EjarZone مميزًا؟</h2>
+            <div class="feature-items-container">
+                <div class="feature-item">
+                    <i class="fas fa-home"></i>
+                    <h3>إدارة العقارات</h3>
+                    <p>نظام متكامل لإدارة العقارات والوحدات السكنية بكفاءة عالية. تتبع حالة كل وحدة وإدارة عقود الإيجار بسهولة تامة.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-building"></i>
+                    <h3>إدارة المباني</h3>
+                    <p>إدارة شاملة للمباني والمجمعات السكنية. تنظيم الوحدات وتتبع الصيانة وإدارة المرافق بكفاءة عالية.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>إدارة الصيانة</h3>
+                    <p>نظام متطور لإدارة طلبات الصيانة وتتبع الإصلاحات. جدولة الصيانة الدورية وإدارة فرق العمل بفعالية.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users"></i>
+                    <h3>إدارة المستأجرين</h3>
+                    <p>إدارة شاملة لبيانات المستأجرين وملفاتهم. متابعة المدفوعات وتجديد العقود وإدارة التواصل بسهولة.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>تقارير تحليلية</h3>
+                    <p>تقارير مفصلة ولوحات تحليلية متقدمة. رؤية شاملة لأداء العقارات والإيرادات مع تحليلات ذكية للبيانات.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>لوحة تحكم ذكية</h3>
+                    <p>لوحة تحكم سهلة الاستخدام تجمع كل ما تحتاجه في مكان واحد. إدارة كاملة لعقاراتك من أي مكان وفي أي وقت.</p>
+                </div>
+            </div>
+        </section>
+        <section class="pricing-section" id="pricing">
+            <div class="section-header">
+                <h2>باقات الأسعار</h2>
+                <p>اختر الباقة المناسبة لاحتياجاتك</p>
+            </div>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>الباقة الأساسية</h3>
+                    <div class="price">
+                        49 <span>ريال/شهرياً</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> إدارة 5 وحدات (شقق/غرف)</li>
+                        <li><i class="fas fa-check"></i> إدارة مبنى واحد</li>
+                        <li><i class="fas fa-check"></i> إدارة المستأجرين</li>
+                        <li><i class="fas fa-check"></i> إدارة عقود الإيجار</li>
+                        <li><i class="fas fa-check"></i> التقارير الأساسية</li>
+                        <li class="not-included"><i class="fas fa-times"></i> إدارة الصيانة</li>
+                        <li class="not-included"><i class="fas fa-times"></i> التقارير المتقدمة</li>
+                        <!-- <li class="not-included"><i class="fas fa-times"></i> الربط مع المحاسبة</li> -->
+                        <li class="not-included"><i class="fas fa-times"></i> دعم على مدار الساعة</li>
+                    </ul>
+                    <button class="subscribe-btn">اشترك الآن</button>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge">الأكثر طلباً</div>
+                    <h3>الباقة الاحترافية</h3>
+                    <div class="price">
+                        149 <span>ريال/شهرياً</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> إدارة 20 وحدة (شقق/غرف)</li>
+                        <li><i class="fas fa-check"></i> إدارة 2 مبنى</li>
+                        <li><i class="fas fa-check"></i> إدارة المستأجرين</li>
+                        <li><i class="fas fa-check"></i> إدارة عقود الإيجار</li>
+                        <li><i class="fas fa-check"></i> التقارير الأساسية والمتقدمة</li>
+                        <li><i class="fas fa-check"></i> إدارة الصيانة</li>
+                        <li><i class="fas fa-check"></i> إدارة الإيردات والمصروفات</li>
+                        <!-- <li><i class="fas fa-check"></i> الربط مع المحاسبة</li> -->
+                        <li class="not-included"><i class="fas fa-times"></i> دعم على مدار الساعة</li>
+                    </ul>
+                    <button class="subscribe-btn">اشترك الآن</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>الباقة المتقدمة</h3>
+                    <div class="price">
+                        299 <span>ريال/شهرياً</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> عدد غير محدود من الوحدات</li>
+                        <li><i class="fas fa-check"></i> عدد غير محدود من المباني</li>
+                        <li><i class="fas fa-check"></i> إدارة المستأجرين</li>
+                        <li><i class="fas fa-check"></i> إدارة عقود الإيجار</li>
+                        <li><i class="fas fa-check"></i> جميع أنواع التقارير</li>
+                        <li><i class="fas fa-check"></i> إدارة الصيانة المتقدمة</li>
+                        <li><i class="fas fa-check"></i> إدارة الإيردات والمصروفات</li>
+                        <!-- <li><i class="fas fa-check"></i> الربط مع المحاسبة</li> -->
+                        <li><i class="fas fa-check"></i> دعم على مدار الساعة</li>
+                    </ul>
+                    <button class="subscribe-btn">اشترك الآن</button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-section">
+            <h2>ماذا يقول عملاؤنا؟</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"EjarZone ساعدني في تنظيم جميع عقاراتي بسهولة. التقارير رائعة والنظام سهل الاستخدام!"</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">أحمد السعيد</p>
+                            <p class="client-position">مالك عقارات</p>
+                        </div>
+                        <img src="app2/assets/images/client1.png" alt="صورة العميل" onerror="this.src='assets/images/male-avatar.png'">
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>"نظام متكامل يوفر الوقت والجهد. أصبحت إدارة المدفوعات والصيانة أسهل بكثير."</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">سارة المهندس</p>
+                            <p class="client-position">مديرة مجمع سكني</p>
+                        </div>
+                        <img src="app2/assets/images/client2.png" alt="صورة العميل" onerror="this.src='assets/images/female-avatar.png'">
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"خدمة العملاء ممتازة والدعم الفني سريع جداً. النظام يتطور باستمرار ويضيف مميزات جديدة."</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">محمد العتيبي</p>
+                            <p class="client-position">مستثمر عقاري</p>
+                        </div>
+                        <img src="app2/assets/images/client1.png" alt="صورة العميل" onerror="this.src='assets/images/male-avatar.png'">
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"أفضل استثمار قمت به لإدارة عقاراتي. النظام وفر علي الكثير من المصاريف والوقت في متابعة العقارات."</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">فهد القحطاني</p>
+                            <p class="client-position">صاحب شركة عقارية</p>
+                        </div>
+                        <img src="app2/assets/images/client1.png" alt="صورة العميل" onerror="this.src='assets/images/male-avatar.png'">
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"نظام EjarZone غير طريقة إدارتي للوحدات المفروشة. أصبح كل شيء منظم ومؤتمت، والإشعارات التلقائية توفر علي الكثير من المتابعات."</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">نورة الراشد</p>
+                            <p class="client-position">مالكة وحدات مفروشة</p>
+                        </div>
+                        <img src="app2/assets/images/client2.png" alt="صورة العميل" onerror="this.src='assets/images/female-avatar.png'">
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"التقارير المالية والإحصائيات التي يوفرها النظام ساعدتني في اتخاذ قرارات استثمارية أفضل. تطبيق رائع يستحق كل ريال!"</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <p class="client-name">عبدالله المالكي</p>
+                            <p class="client-position">مدير شركة تطوير عقاري</p>
+                        </div>
+                        <img src="app2/assets/images/client1.png" alt="صورة العميل" onerror="this.src='assets/images/male-avatar.png'">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <h2>من نحن</h2>
+            <div class="about-content">
+                <p>نحن في EjarZone نقدم حلولاً متكاملة لإدارة العقارات، مدعومة بأحدث التقنيات وأفضل الممارسات العالمية. نسعى دائماً لتطوير خدماتنا لتلبية احتياجات عملائنا المتنامية في سوق العقارات.</p>
+                
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-medal"></i>
+                        <h3>خبرة واسعة</h3>
+                        <p>أكثر من 10 سنوات في مجال إدارة العقارات</p>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-users"></i>
+                        <h3>عملاء سعداء</h3>
+                        <p>آلاف العملاء يثقون بخدماتنا</p>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-clock"></i>
+                        <h3>دعم متواصل</h3>
+                        <p>فريق دعم فني متخصص على مدار الساعة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <h2>اتصل بنا</h2>
+            <div class="contact-content">
+                <p>نحن هنا لمساعدتك! تواصل معنا عبر قنوات الاتصال المختلفة</p>
+                
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>راسلنا عبر البريد</h3>
+                        <p>info@ejarzone.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>اتصل بنا</h3>
+                        <p style="direction: ltr;">+966 50 794 9591</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>موقعنا</h3>
+                        <p>الرياض، المملكة العربية السعودية</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section" id="faq">
+            <h2>الأسئلة الشائعة</h2>
+            <div class="faq-container">
+                <div class="faq-search">
+                    <input type="text" placeholder="ابحث عن سؤال...">
+                </div>
+                
+                <div class="faq-categories">
+                    <span class="faq-category active">جميع الأسئلة</span>
+                    <span class="faq-category">الاشتراك والأسعار</span>
+                    <span class="faq-category">المميزات</span>
+                    <span class="faq-category">الدعم الفني</span>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        كيف يمكنني البدء باستخدام EjarZone؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        يمكنك البدء باستخدام EjarZone بخطوات بسيطة:
+                        <br>1. قم بالتسجيل في الموقع مجاناً
+                        <br>2. اختر الباقة المناسبة لاحتياجاتك
+                        <br>3. أضف عقاراتك ووحداتك
+                        <br>4. ابدأ بإدارة عقاراتك بكفاءة
+                        <br><br>نقدم فترة تجريبية مجانية لمدة 15 يوماً لتجربة جميع مميزات النظام.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ما هي الباقات المتوفرة وأسعارها؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        نقدم ثلاث باقات رئيسية:
+                        <br>- الباقة الأساسية: 49 ريال شهرياً (5 وحدات)
+                        <br>- الباقة المتوسطة: 149 ريال شهرياً (20 وحدة)
+                        <br>- الباقة المميزة: 299 ريال شهرياً (غير محدود)
+                        <br><br>جميع الباقات تشمل المميزات الأساسية مع اختلاف في عدد الوحدات المسموح بها.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        هل يمكنني تغيير باقتي في أي وقت؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        نعم، يمكنك ترقية أو تخفيض باقتك في أي وقت. عند الترقية، سيتم احتساب الفرق في السعر بشكل تناسبي. وعند التخفيض، سيتم تطبيق الباقة الجديدة في دورة الفوترة التالية.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        كيف يمكنني الحصول على الدعم الفني؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        نوفر عدة قنوات للدعم الفني:
+                        <br>- الدردشة المباشرة على مدار الساعة
+                        <br>- الدعم عبر البريد الإلكتروني
+                        <br>- الاتصال الهاتفي خلال ساعات العمل
+                        <br>- قسم المساعدة والإرشادات في النظام
+                        <br><br>فريق الدعم الفني متاح دائماً لمساعدتك وحل أي مشكلة تواجهك.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        هل يمكنني تصدير التقارير والبيانات؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        نعم، يوفر النظام إمكانية تصدير جميع التقارير والبيانات بصيغ مختلفة مثل PDF وExcel. يمكنك أيضاً جدولة إرسال التقارير بشكل دوري عبر البريد الإلكتروني.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        هل بياناتي آمنة في النظام؟
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        نعم، نحن نأخذ أمن البيانات بجدية تامة:
+                        <br>- جميع البيانات مشفرة
+                        <br>- نسخ احتياطية يومية
+                        <br>- تحديثات أمنية دورية
+                        <br>- مراقبة مستمرة للنظام
+                        <br><br>نلتزم بأعلى معايير الأمان لحماية بياناتك وخصوصيتك.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section" style="background-color: #007BFF; color: white;">
+            <h2>ابدأ اليوم في إدارة عقاراتك بكفاءة!</h2>
+            <p>احصل على فترة تجربة مجانية لمدة 15 يومًا بدون أي التزامات.</p>
+            <a href="app2/register.php" class="cta-button" style="background-color: #FFA500;">جرب الآن مجانًا</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 EjarZone. جميع الحقوق محفوظة.</p>
+        <a href="index.html#about">من نحن</a>
+        <a href="index.html#faq">أسئلة شائعة</a>
+        <a href="terms.html">شروط الاستخدام</a>
+        <a href="privacy-policy.html">سياسة الخصوصية</a>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+        // كود الأسئلة الشائعة
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // إغلاق جميع الأسئلة المفتوحة
+                document.querySelectorAll('.faq-item').forEach(faqItem => {
+                    faqItem.classList.remove('active');
+                });
+                
+                // فتح السؤال المحدد إذا لم يكن مفتوحاً
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // البحث في الأسئلة الشائعة
+        const faqSearch = document.querySelector('.faq-search input');
+        faqSearch.addEventListener('input', (e) => {
+            const searchText = e.target.value.toLowerCase();
+            document.querySelectorAll('.faq-item').forEach(item => {
+                const question = item.querySelector('.faq-question').textContent.toLowerCase();
+                const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+                
+                if (question.includes(searchText) || answer.includes(searchText)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        // تصفية الأسئلة حسب الفئة
+        document.querySelectorAll('.faq-category').forEach(category => {
+            category.addEventListener('click', () => {
+                // إزالة التنشيط من جميع الفئات
+                document.querySelectorAll('.faq-category').forEach(cat => {
+                    cat.classList.remove('active');
+                });
+                
+                // تنشيط الفئة المختارة
+                category.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

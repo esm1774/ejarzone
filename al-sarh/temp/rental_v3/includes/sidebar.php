@@ -1,0 +1,254 @@
+<?php
+// التحقق من وجود role في الجلسة
+$userRole = $_SESSION['role'] ?? 'مدير';
+
+// قائمة بالصفحات المسموح بها لكل دور
+$rolePermissions = [
+    'مدير' => ['dashboard', 'units', 'tenants', 'contracts', 'payments', 'reports', 'expenses', 'revenues', 'users', 'settings', 'maintenance'],
+    'مستخدم' => ['dashboard', 'units', 'tenants', 'contracts', 'payments', 'expenses']
+];
+
+// الحصول على الصفحات المسموح بها للمستخدم الحالي
+$allowedPages = $rolePermissions[$userRole] ?? $rolePermissions['مدير'];
+
+// الحصول على الصفحة الحالية
+$currentPage = basename($_SERVER['PHP_SELF'], '.php');
+?>
+
+<div class="sidebar">
+
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <?php if (in_array('dashboard', $allowedPages)): ?>
+            <a class="nav-link" href="<?php echo getUrl('index.php'); ?>">
+                <i class="bi bi-house-door"></i>
+                <span>الرئيسية</span>
+            </a>
+            <?php endif; ?>
+        </li>
+        <li class="nav-item has-submenu">
+            <?php if (in_array('units', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-building"></i>
+                <span>إدارة المباني</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('buildings/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض المباني</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('buildings/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة مبنى</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+        <li class="nav-item has-submenu">
+            <?php if (in_array('units', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-building"></i>
+                <span>إدارة الوحدات</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('units/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض الوحدات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('units/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة وحدة</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item has-submenu">
+            <?php if (in_array('maintenance', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+            <i class="bi bi-tools"></i>
+                <span>الصيانة</span>
+            </a>
+
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('maintenance/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span> طلبات الصيانة</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('maintenance/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة طلب صيانة</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+        <li class="nav-item has-submenu">
+            <?php if (in_array('tenants', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-people"></i>
+                <span>إدارة المستأجرين</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('tenants/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض المستأجرين</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('tenants/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة مستأجر</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item has-submenu">
+            <?php if (in_array('contracts', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-file-text"></i>
+                <span>إدارة العقود</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('contracts/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض العقود</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('contracts/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة عقد</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item has-submenu">
+            <?php if (in_array('payments', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-cash-coin"></i>
+                <span>إدارة الإيجارات</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('payments/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض الإيجارات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('payments/search_tenant.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة إيجار</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item has-submenu">
+            <?php if (in_array('revenues', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-cash-coin "></i>
+                <span>إدارة الإيرادات</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('revenues/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض الإيرادات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('revenues/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة إيراد</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('revenues/types.php'); ?>">
+                        <i class="bi bi-list-check"></i>
+                        <span>أنواع الإيرادات</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item has-submenu">
+            <?php if (in_array('expenses', $allowedPages)): ?>
+            <a class="nav-link" href="#">
+                <i class="bi bi-cash-stack "></i>
+                <span>إدارة المصروفات</span>
+            </a>
+            <ul class="submenu nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('expenses/index.php'); ?>">
+                        <i class="bi bi-list-ul"></i>
+                        <span>عرض المصروفات</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo getUrl('expenses/add.php'); ?>">
+                        <i class="bi bi-plus-lg"></i>
+                        <span>إضافة مصروف</span>
+                    </a>
+                </li>
+            </ul>
+            <?php endif; ?>
+        </li>
+
+        
+
+        <li class="nav-item">
+            <?php if (in_array('reports', $allowedPages)): ?>
+            <a class="nav-link" href="<?php echo getUrl('reports/index.php'); ?>">
+                <i class="bi bi-graph-up"></i>
+                <span>التقارير</span>
+            </a>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item">
+            <?php if (in_array('users', $allowedPages)): ?>
+            <a class="nav-link" href="<?php echo getUrl('users/index.php'); ?>">
+                <i class="bi bi-people"></i>
+                <span>إدارة المستخدمين</span>
+            </a>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item">
+            <?php if (in_array('settings', $allowedPages)): ?>
+            <a class="nav-link" href="<?php echo getUrl('settings.php'); ?>">
+                <i class="bi bi-gear"></i>
+                <span>الإعدادات</span>
+            </a>
+            <?php endif; ?>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-danger" href="<?php echo getUrl('logout.php'); ?>">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>تسجيل الخروج</span>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,644 @@
+[23-Jan-2025 04:35:14 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 04:35:14 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 04:35:14 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 04:35:14 UTC] POST data: Array
+(
+    [csrf_token] => aabbb9ea87d3d7126b58e28501e0f694e9015227211c3656d5a76b0808a35171
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 07:35:14 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 07:35:14 Asia/Riyadh] Host: localhost
+[23-Jan-2025 07:35:14 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 07:35:14 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 07:35:14 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 07:35:14 Asia/Riyadh] خطأ في forgot_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'SELECT'
+[23-Jan-2025 07:35:14 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(42): PDO->prepare()
+#1 {main}
+[23-Jan-2025 04:38:45 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 04:38:45 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 04:38:45 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 04:38:45 UTC] POST data: Array
+(
+    [csrf_token] => aabbb9ea87d3d7126b58e28501e0f694e9015227211c3656d5a76b0808a35171
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 07:38:45 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 07:38:45 Asia/Riyadh] Host: localhost
+[23-Jan-2025 07:38:45 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 07:38:45 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 07:38:45 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 07:38:45 Asia/Riyadh] خطأ في forgot_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'SELECT'
+[23-Jan-2025 07:38:45 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(42): PDO->prepare()
+#1 {main}
+[23-Jan-2025 04:39:04 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 04:39:04 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 04:39:04 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 04:39:04 UTC] POST data: Array
+(
+    [csrf_token] => aabbb9ea87d3d7126b58e28501e0f694e9015227211c3656d5a76b0808a35171
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 07:39:04 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 07:39:04 Asia/Riyadh] Host: localhost
+[23-Jan-2025 07:39:04 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 07:39:04 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 07:39:04 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 07:39:04 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 07:39:04 Asia/Riyadh] خطأ في forgot_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reset_token' in 'SET'
+[23-Jan-2025 07:39:04 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(59): PDO->prepare()
+#1 {main}
+[23-Jan-2025 05:38:49 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 05:38:49 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 05:38:49 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 05:38:49 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 08:38:49 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 08:38:49 Asia/Riyadh] Host: localhost
+[23-Jan-2025 08:38:49 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 08:38:49 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 08:38:49 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 08:38:49 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 08:38:49 Asia/Riyadh] خطأ في forgot_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reset_token' in 'SET'
+[23-Jan-2025 08:38:49 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(59): PDO->prepare()
+#1 {main}
+[23-Jan-2025 05:51:41 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 05:51:41 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 05:51:41 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 05:51:41 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 08:51:41 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 08:51:41 Asia/Riyadh] Host: localhost
+[23-Jan-2025 08:51:41 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 08:51:41 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 08:51:41 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 08:51:41 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 08:51:41 Asia/Riyadh] خطأ في forgot_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reset_token' in 'SET'
+[23-Jan-2025 08:51:41 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(59): PDO->prepare()
+#1 {main}
+[23-Jan-2025 05:57:16 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 05:57:16 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 05:57:16 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 05:57:16 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 08:57:16 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 08:57:16 Asia/Riyadh] Host: localhost
+[23-Jan-2025 08:57:16 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 08:57:16 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 08:57:16 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 08:57:16 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 08:57:16 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 08:57:16 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 08:57:16 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 06:14:49 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 06:14:49 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 06:14:49 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 06:14:49 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 09:14:49 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 09:14:49 Asia/Riyadh] Host: localhost
+[23-Jan-2025 09:14:49 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 09:14:49 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 09:14:49 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 09:14:49 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 09:14:49 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 09:14:49 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 09:14:49 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 09:14:49 Asia/Riyadh] Host: mail.ejarzone.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] Port: 465
+[23-Jan-2025 09:14:49 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] From Email: noreply@ejarzone.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] Encryption: ssl
+[23-Jan-2025 09:14:49 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 09:14:49 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:14:49 Asia/Riyadh] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server Additional SMTP info: php_network_getaddresses: getaddrinfo for mail.ejarzone.com failed: Name or service not known
+[23-Jan-2025 09:14:49 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:14:49 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 06:56:47 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 06:56:47 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 06:56:47 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 06:56:47 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 09:56:47 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 09:56:47 Asia/Riyadh] Host: localhost
+[23-Jan-2025 09:56:47 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 09:56:47 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 09:56:47 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 09:56:47 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 09:56:47 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 09:56:47 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 09:56:47 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 09:56:47 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 09:56:47 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 09:56:47 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 09:56:47 Asia/Riyadh] Port: 587
+[23-Jan-2025 09:56:47 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 09:56:47 Asia/Riyadh] From Email: noreply@ejarzone.com
+[23-Jan-2025 09:56:47 Asia/Riyadh] Encryption: ssl
+[23-Jan-2025 09:56:47 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 09:56:47 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:56:47 Asia/Riyadh] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server
+[23-Jan-2025 09:56:47 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:56:47 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 06:58:12 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 06:58:12 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 06:58:12 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 06:58:12 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 09:58:12 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 09:58:12 Asia/Riyadh] Host: localhost
+[23-Jan-2025 09:58:12 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 09:58:12 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 09:58:12 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 09:58:12 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 09:58:12 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 09:58:12 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 09:58:12 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 09:58:12 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 09:58:12 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 09:58:12 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 09:58:12 Asia/Riyadh] Port: 587
+[23-Jan-2025 09:58:12 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 09:58:12 Asia/Riyadh] From Email: noreply@ejarzone.com
+[23-Jan-2025 09:58:12 Asia/Riyadh] Encryption: ssl
+[23-Jan-2025 09:58:12 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 09:58:13 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:58:13 Asia/Riyadh] Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server
+[23-Jan-2025 09:58:13 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[23-Jan-2025 09:58:13 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 07:01:42 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 07:01:42 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 07:01:42 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 07:01:42 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 10:01:42 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:01:42 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:01:42 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:01:42 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:01:42 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:01:42 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 10:01:42 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 10:01:42 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 10:01:42 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 10:01:42 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 10:01:42 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 10:01:42 Asia/Riyadh] Host: smtp.gmail.com
+[23-Jan-2025 10:01:42 Asia/Riyadh] Port: 587
+[23-Jan-2025 10:01:42 Asia/Riyadh] Username: esm1774@gmail.com
+[23-Jan-2025 10:01:42 Asia/Riyadh] From Email: esm1774@gmail.com
+[23-Jan-2025 10:01:42 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 10:01:42 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 10:01:43 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:01:43 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:01:43 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:01:43 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 07:02:03 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 07:02:03 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 07:02:03 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 07:02:03 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 10:02:03 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:02:03 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:02:03 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:02:03 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:02:03 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:02:03 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 10:02:03 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 10:02:03 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 10:02:03 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 10:02:03 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 10:02:03 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 10:02:03 Asia/Riyadh] Host: smtp.gmail.com
+[23-Jan-2025 10:02:03 Asia/Riyadh] Port: 587
+[23-Jan-2025 10:02:03 Asia/Riyadh] Username: esm1774@gmail.com
+[23-Jan-2025 10:02:03 Asia/Riyadh] From Email: esm1774@gmail.com
+[23-Jan-2025 10:02:03 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 10:02:03 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 10:02:04 Asia/Riyadh] خطأ في إرسال البريد: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:02:04 Asia/Riyadh] Mailer Error: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:02:04 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: SMTP Error: Could not authenticate.
+[23-Jan-2025 10:02:04 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 07:16:00 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 07:16:00 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 07:16:00 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 07:16:00 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 10:16:00 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:16:00 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:16:00 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:16:00 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:16:00 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:16:00 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 10:16:00 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 10:16:00 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 10:16:00 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 10:16:00 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 10:16:00 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 10:16:00 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 10:16:00 Asia/Riyadh] Port: 587
+[23-Jan-2025 10:16:00 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 10:16:00 Asia/Riyadh] From Email: noreply@ejarzone.com
+[23-Jan-2025 10:16:00 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 10:16:00 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 10:16:00 Asia/Riyadh] خطأ في إرسال البريد: The following From address failed: noreply@ejarzone.com : MAIL FROM command failed,<noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: <noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+ SMTP code: 553 Additional SMTP info: 5.7.1
+[23-Jan-2025 10:16:00 Asia/Riyadh] Mailer Error: The following From address failed: noreply@ejarzone.com : MAIL FROM command failed,<noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: <noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+ SMTP code: 553 Additional SMTP info: 5.7.1SMTP server error: MAIL FROM command failed Detail: <noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+ SMTP code: 553 Additional SMTP info: 5.7.1
+[23-Jan-2025 10:16:00 Asia/Riyadh] خطأ في forgot_password_handler.php: فشل في إرسال بريد إعادة تعيين كلمة المرور: The following From address failed: noreply@ejarzone.com : MAIL FROM command failed,<noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+,553,5.7.1SMTP server error: MAIL FROM command failed Detail: <noreply@ejarzone.com>: Sender address rejected: not owned by user support@ejarzone.com
+ SMTP code: 553 Additional SMTP info: 5.7.1
+[23-Jan-2025 10:16:00 Asia/Riyadh] Stack trace: #0 /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php(83): Mailer->sendPasswordReset()
+#1 {main}
+[23-Jan-2025 07:19:29 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 07:19:29 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 07:19:29 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 07:19:29 UTC] POST data: Array
+(
+    [csrf_token] => d3f57992044a545e5a024554fcfa64f2b43787216ad0d28d4b733f54c3d19515
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 10:19:29 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:19:29 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:19:29 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:19:29 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:19:29 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:19:29 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 10:19:29 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 10:19:29 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 10:19:29 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 10:19:29 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 10:19:29 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 10:19:29 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 10:19:29 Asia/Riyadh] Port: 587
+[23-Jan-2025 10:19:29 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 10:19:29 Asia/Riyadh] From Email: support@ejarzone.com
+[23-Jan-2025 10:19:29 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 10:19:29 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 10:19:30 Asia/Riyadh] تم إرسال البريد بنجاح
+[23-Jan-2025 10:27:02 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:27:02 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:27:02 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:27:02 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:27:02 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:27:02 Asia/Riyadh] خطأ في reset_password_handler.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'SET'
+[23-Jan-2025 10:30:08 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 10:30:08 Asia/Riyadh] Host: localhost
+[23-Jan-2025 10:30:08 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 10:30:08 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 10:30:08 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 10:15:12 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 10:15:12 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 10:15:12 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 10:15:12 UTC] POST data: Array
+(
+    [csrf_token] => 7266d4f290f6d7993449709edd35560c57652dd24910a2b94d420ae73e37f859
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 13:15:12 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 13:15:12 Asia/Riyadh] Host: localhost
+[23-Jan-2025 13:15:12 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 13:15:12 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 13:15:12 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 13:15:12 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 13:15:12 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 13:15:12 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 13:15:12 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 13:15:12 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 13:15:12 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 13:15:12 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 13:15:12 Asia/Riyadh] Port: 587
+[23-Jan-2025 13:15:12 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 13:15:12 Asia/Riyadh] From Email: support@ejarzone.com
+[23-Jan-2025 13:15:12 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 13:15:12 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 13:15:13 Asia/Riyadh] تم إرسال البريد بنجاح
+[23-Jan-2025 12:42:11 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 12:42:11 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 12:42:11 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 12:42:11 UTC] POST data: Array
+(
+    [csrf_token] => 4c3d9c5f85f3f2f3fa38134586cb03422e189f2ad026234ce62228b905771bd2
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 15:42:11 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 15:42:11 Asia/Riyadh] Host: localhost
+[23-Jan-2025 15:42:11 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 15:42:11 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 15:42:11 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 15:42:11 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 15:42:11 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 15:42:11 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 15:42:11 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 15:42:11 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 15:42:11 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 15:42:11 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 15:42:11 Asia/Riyadh] Port: 587
+[23-Jan-2025 15:42:11 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 15:42:11 Asia/Riyadh] From Email: support@ejarzone.com
+[23-Jan-2025 15:42:11 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 15:42:11 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 15:42:12 Asia/Riyadh] تم إرسال البريد بنجاح
+[23-Jan-2025 18:34:45 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[23-Jan-2025 18:34:45 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[23-Jan-2025 18:34:45 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[23-Jan-2025 18:34:45 UTC] POST data: Array
+(
+    [csrf_token] => d13a10edad1577e379816fb803b13ad4503581b1c4e86b5fe534d7d5c0e4c4c6
+    [email] => esm1774@gmail.com
+)
+
+[23-Jan-2025 21:34:45 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[23-Jan-2025 21:34:45 Asia/Riyadh] Host: localhost
+[23-Jan-2025 21:34:45 Asia/Riyadh] Database: u402628076_alsarh_db
+[23-Jan-2025 21:34:45 Asia/Riyadh] User: u402628076_alsarh
+[23-Jan-2025 21:34:45 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[23-Jan-2025 21:34:45 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[23-Jan-2025 21:34:45 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[23-Jan-2025 21:34:45 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[23-Jan-2025 21:34:45 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[23-Jan-2025 21:34:45 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[23-Jan-2025 21:34:45 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[23-Jan-2025 21:34:45 Asia/Riyadh] Host: smtp.titan.email
+[23-Jan-2025 21:34:45 Asia/Riyadh] Port: 587
+[23-Jan-2025 21:34:45 Asia/Riyadh] Username: support@ejarzone.com
+[23-Jan-2025 21:34:45 Asia/Riyadh] From Email: support@ejarzone.com
+[23-Jan-2025 21:34:45 Asia/Riyadh] Encryption: tls
+[23-Jan-2025 21:34:45 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[23-Jan-2025 21:34:46 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 04:27:02 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:27:02 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:27:02 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:27:02 UTC] POST data: Array
+(
+    [csrf_token] => 68ee9b45ba6c32bed7283a0861ffc55c3c46f67dac58ccf6691437cdc6e72a62
+    [email] => esm1774@gmail.com
+)
+
+[24-Jan-2025 07:27:02 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:27:02 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:27:02 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:27:02 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:27:02 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:27:02 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:27:02 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:27:02 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[24-Jan-2025 07:27:02 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[24-Jan-2025 07:27:02 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:27:02 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:27:02 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:27:02 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:27:02 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:27:02 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:27:02 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:27:02 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[24-Jan-2025 07:27:03 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 04:33:00 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:33:00 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:33:00 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:33:00 UTC] POST data: Array
+(
+    [csrf_token] => 2aa9ed394aa9b1f3d3354ff1c383a8a33d416f2b57df70655a22fc485e6954bd
+    [email] => esm1774@gmail.com
+)
+
+[24-Jan-2025 07:33:00 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:33:00 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:33:00 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:33:00 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:33:00 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:33:00 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:33:00 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:33:00 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[24-Jan-2025 07:33:00 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[24-Jan-2025 07:33:00 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:33:00 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:33:00 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:33:00 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:33:00 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:33:00 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:33:00 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:33:00 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[24-Jan-2025 07:33:01 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 04:33:23 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:33:23 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:33:23 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:33:23 UTC] POST data: Array
+(
+    [csrf_token] => 2aa9ed394aa9b1f3d3354ff1c383a8a33d416f2b57df70655a22fc485e6954bd
+    [email] => esm197496@gmail.com
+)
+
+[24-Jan-2025 07:33:23 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:33:23 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:33:23 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:33:23 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:33:23 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:33:23 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:33:23 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:33:23 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm197496@gmail.com
+[24-Jan-2025 07:33:23 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm197496@gmail.com
+[24-Jan-2025 07:33:23 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:33:23 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:33:23 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:33:23 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:33:23 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:33:23 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:33:23 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:33:23 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm197496@gmail.com
+[24-Jan-2025 07:33:24 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 04:37:20 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:37:20 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:37:20 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:37:20 UTC] POST data: Array
+(
+    [csrf_token] => fa170c472c107b7b480f1585f172bd980cf17f8efe0b08d96526e859215eea25
+    [email] => esm1774@gmail.com
+)
+
+[24-Jan-2025 07:37:20 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:37:20 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:37:20 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:37:20 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:37:20 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:37:20 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:37:20 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:37:20 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[24-Jan-2025 07:37:20 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[24-Jan-2025 07:37:20 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:37:20 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:37:20 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:37:20 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:37:20 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:37:20 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:37:20 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:37:20 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[24-Jan-2025 07:37:21 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 07:38:19 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:38:19 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:38:19 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:38:19 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:38:19 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 04:43:27 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:43:27 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:43:27 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:43:27 UTC] POST data: Array
+(
+    [csrf_token] => 6f99634b528dfc22d84e5cecc02cb052b448623208e308ee1deb88e49b7925eb
+    [email] => esm1774@gmail.com
+)
+
+[24-Jan-2025 07:43:27 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:43:27 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:43:27 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:43:27 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:43:27 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:43:27 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:43:27 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:43:27 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm1774@gmail.com
+[24-Jan-2025 07:43:27 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm1774@gmail.com
+[24-Jan-2025 07:43:27 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:43:27 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:43:27 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:43:27 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:43:27 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:43:27 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:43:27 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:43:27 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm1774@gmail.com
+[24-Jan-2025 07:43:28 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 04:47:09 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 04:47:09 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 04:47:09 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 04:47:09 UTC] POST data: Array
+(
+    [csrf_token] => 2aa9ed394aa9b1f3d3354ff1c383a8a33d416f2b57df70655a22fc485e6954bd
+    [email] => esm197496@gmail.com
+)
+
+[24-Jan-2025 07:47:09 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 07:47:09 Asia/Riyadh] Host: localhost
+[24-Jan-2025 07:47:09 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 07:47:09 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 07:47:09 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 07:47:09 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 07:47:09 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 07:47:09 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm197496@gmail.com
+[24-Jan-2025 07:47:09 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm197496@gmail.com
+[24-Jan-2025 07:47:09 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 07:47:09 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 07:47:09 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 07:47:09 Asia/Riyadh] Port: 587
+[24-Jan-2025 07:47:09 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 07:47:09 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 07:47:09 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 07:47:09 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm197496@gmail.com
+[24-Jan-2025 07:47:10 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 09:42:27 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 09:42:27 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 09:42:27 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 09:42:27 UTC] POST data: Array
+(
+    [csrf_token] => 6f99634b528dfc22d84e5cecc02cb052b448623208e308ee1deb88e49b7925eb
+    [email] => esm197496@gmail.com
+)
+
+[24-Jan-2025 12:42:27 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 12:42:27 Asia/Riyadh] Host: localhost
+[24-Jan-2025 12:42:27 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 12:42:27 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 12:42:27 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 12:42:27 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 12:42:27 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 12:42:27 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm197496@gmail.com
+[24-Jan-2025 12:42:27 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm197496@gmail.com
+[24-Jan-2025 12:42:27 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 12:42:27 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 12:42:27 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 12:42:27 Asia/Riyadh] Port: 587
+[24-Jan-2025 12:42:27 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 12:42:27 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 12:42:27 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 12:42:27 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm197496@gmail.com
+[24-Jan-2025 12:42:28 Asia/Riyadh] تم إرسال البريد بنجاح
+[24-Jan-2025 14:27:23 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 14:27:23 Asia/Riyadh] Host: localhost
+[24-Jan-2025 14:27:23 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 14:27:23 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 14:27:23 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 11:34:19 UTC] === بدء تنفيذ forgot_password_handler.php ===
+[24-Jan-2025 11:34:19 UTC] المسار الحالي: /home/u402628076/domains/ejarzone.com/public_html/al-sarh
+[24-Jan-2025 11:34:19 UTC] المسار الكامل للملف: /home/u402628076/domains/ejarzone.com/public_html/al-sarh/forgot_password_handler.php
+[24-Jan-2025 11:34:19 UTC] POST data: Array
+(
+    [csrf_token] => 7c352995b75ccd665a9bfa1133b29165e9297e673cba22b70c5d48af493e305f
+    [email] => esm197496@gmail.com
+)
+
+[24-Jan-2025 14:34:19 Asia/Riyadh] محاولة الاتصال بقاعدة البيانات
+[24-Jan-2025 14:34:19 Asia/Riyadh] Host: localhost
+[24-Jan-2025 14:34:19 Asia/Riyadh] Database: u402628076_alsarh_db
+[24-Jan-2025 14:34:19 Asia/Riyadh] User: u402628076_alsarh
+[24-Jan-2025 14:34:19 Asia/Riyadh] تم الاتصال بقاعدة البيانات بنجاح
+[24-Jan-2025 14:34:19 Asia/Riyadh] التحقق من وجود الأعمدة المطلوبة في جدول users
+[24-Jan-2025 14:34:19 Asia/Riyadh] تم التحقق من/إضافة الأعمدة المطلوبة بنجاح
+[24-Jan-2025 14:34:19 Asia/Riyadh] جاري التحقق من البريد الإلكتروني: esm197496@gmail.com
+[24-Jan-2025 14:34:19 Asia/Riyadh] جاري حفظ رمز إعادة التعيين للبريد: esm197496@gmail.com
+[24-Jan-2025 14:34:19 Asia/Riyadh] جاري إرسال بريد إعادة تعيين كلمة المرور
+[24-Jan-2025 14:34:19 Asia/Riyadh] تم تهيئة PHPMailer بنجاح مع الإعدادات التالية:
+[24-Jan-2025 14:34:19 Asia/Riyadh] Host: smtp.titan.email
+[24-Jan-2025 14:34:19 Asia/Riyadh] Port: 587
+[24-Jan-2025 14:34:19 Asia/Riyadh] Username: support@ejarzone.com
+[24-Jan-2025 14:34:19 Asia/Riyadh] From Email: support@ejarzone.com
+[24-Jan-2025 14:34:19 Asia/Riyadh] Encryption: tls
+[24-Jan-2025 14:34:19 Asia/Riyadh] محاولة إرسال بريد إعادة تعيين كلمة المرور إلى: esm197496@gmail.com
+[24-Jan-2025 14:34:20 Asia/Riyadh] تم إرسال البريد بنجاح

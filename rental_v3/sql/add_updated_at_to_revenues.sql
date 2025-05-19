@@ -1,0 +1,3 @@
+-- إضافة عمود updated_at إلى جدول revenues
+ALTER TABLE revenues
+ADD COLUMN updated_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;

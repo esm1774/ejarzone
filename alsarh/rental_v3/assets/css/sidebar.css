@@ -1,0 +1,91 @@
+/* القائمة الجانبية */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #343a40;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.collapsed {
+    right: -250px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+.sidebar-title {
+    padding: 15px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* المحتوى الرئيسي */
+.main-content {
+    margin-right: 250px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.main-content.expanded {
+    margin-right: 0;
+}
+
+/* زر التبديل */
+.sidebar-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1001;
+    display: none;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+    .sidebar {
+        right: -250px;
+    }
+    
+    .sidebar.active {
+        right: 0;
+    }
+    
+    .main-content {
+        margin-right: 0;
+    }
+    
+    .sidebar-toggle {
+        display: block;
+    }
+}
+
+/* تصميم البطاقات */
+.stat-card {
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+/* تصميم الجداول */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table th {
+    white-space: nowrap;
+}

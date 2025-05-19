@@ -1,0 +1,276 @@
+/* المتغيرات */
+:root {
+    --navbar-height: 60px;
+}
+
+/* تنسيقات شريط التنقل العلوي */
+.navbar {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: var(--navbar-height);
+    padding: 0.5rem 1rem;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .ms-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.navbar .navbar-brand {
+    margin-right: 1rem;
+}
+
+.navbar .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left-section {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.navbar .dropdown {
+    margin: 0;
+}
+
+.navbar .btn-link {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.navbar .btn-link:hover,
+.navbar .btn-link:focus {
+    color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+/* زر القائمة الجانبية */
+.sidebar-toggle {
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-toggle:hover {
+    color: var(--primary-color);
+}
+
+/* تنسيقات القائمة المنسدلة */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    min-width: 200px;
+    transform: none !important;
+    right: 0 !important;
+    left: auto !important;
+    top: 100% !important;
+    z-index: 1021;
+}
+
+.dropdown-menu.show {
+    display: block;
+    animation: dropdownFadeIn 0.2s ease-in-out;
+}
+
+@keyframes dropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-toggle {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--dark-color) !important;
+    cursor: pointer;
+    user-select: none;
+    background: none !important;
+    border: none !important;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    color: var(--primary-color) !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-toggle .bi-chevron-down {
+    transition: transform 0.2s ease-in-out;
+    font-size: 0.8rem;
+}
+
+.show .dropdown-toggle .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
+.dropdown-item {
+    padding: 0.7rem 1rem;
+    color: var(--dark-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+
+.dropdown-item i {
+    font-size: 1.1rem;
+}
+
+.dropdown-divider {
+    margin: 0.5rem 0;
+    opacity: 0.1;
+}
+
+/* تنسيقات صورة المستخدم */
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+/* تنسيقات مؤشر التحميل */
+.loading-indicator {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, var(--primary-color), var(--success-color));
+    z-index: 9999;
+}
+
+.loading .loading-indicator {
+    display: block;
+    animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* تنسيقات التنبيهات */
+.alert {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.alert i {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+.alert .btn-close {
+    margin-right: auto;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* تنسيقات المحتوى الرئيسي */
+.main-content,
+.main-content1 {
+    flex: 1;
+    margin-right: var(--sidebar-width);
+    padding: 1.5rem;
+    transition: margin-right var(--transition-speed) ease;
+    min-height: calc(100vh - var(--navbar-height));
+    background-color: var(--light-color);
+}
+
+.main-content.expanded,
+.main-content1.expanded {
+    margin-right: 0;
+}
+
+/* تنسيقات إضافية للصفحة الرئيسية */
+.stat-card {
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card .card-body {
+    padding: 1.5rem;
+    color: white;
+}
+
+.stat-card .stat-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.stat-card .stat-title {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card .stat-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}

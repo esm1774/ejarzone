@@ -1,0 +1,469 @@
+/* تعريف المتغيرات */
+:root {
+    /* الألوان الأساسية */
+    --primary: #1e40af;        /* أزرق غامق */
+    --primary-hover: #1e3a8a;  /* أزرق أغمق للتحويم */
+    --secondary: #64748b;      /* رمادي */
+    
+    /* ألوان الحالة */
+    --success: #15803d;        /* أخضر */
+    --danger: #b91c1c;         /* أحمر */
+    --warning: #b45309;        /* برتقالي */
+    --info: #0369a1;          /* أزرق فاتح */
+    
+    /* ألوان المحايدة */
+    --light: #f1f5f9;         /* رمادي فاتح */
+    --dark: #0f172a;          /* رمادي غامق */
+    --white: #ffffff;         /* أبيض */
+    
+    /* ألوان النص */
+    --text-primary: #0f172a;   /* نص أساسي */
+    --text-secondary: #475569; /* نص ثانوي */
+    --text-light: #94a3b8;    /* نص فاتح */
+    
+    /* ألوان الحدود والخلفيات */
+    --border: #e2e8f0;        /* لون الحدود */
+    --background: #f8fafc;    /* لون الخلفية */
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* الخط الأساسي */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
+/* تنسيق البطاقات */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    background-color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 12px 12px 0 0 !important;
+    padding: 1rem 1.25rem;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* تنسيق الأزرار */
+.btn {
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--white);
+}
+
+/* تنسيق النماذج */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(30, 64, 175, 0.25);
+}
+
+.form-label {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* تنسيق التنبيهات */
+.alert {
+    border-radius: 8px;
+    border: none;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: #dcfce7;
+    color: var(--success);
+}
+
+.alert-danger {
+    background-color: #fee2e2;
+    color: var(--danger);
+}
+
+.alert-warning {
+    background-color: #ffedd5;
+    color: var(--warning);
+}
+
+.alert-info {
+    background-color: #e0f2fe;
+    color: var(--info);
+}
+
+/* تنسيق الروابط */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+/* تنسيق النصوص */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.text-muted {
+    color: var(--text-light) !important;
+}
+
+/* تنسيق الجداول */
+.table {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    color: var(--text-primary);
+    border-color: var(--border);
+}
+
+/* تنسيق شريط التنقل */
+.navbar {
+    background-color: var(--primary);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: var(--white) !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--white) !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* تنسيق الحاويات */
+.auth-container {
+    max-width: 450px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+/* تنسيق الأيقونات */
+.bi {
+    margin-left: 0.5rem;
+    vertical-align: -0.125em;
+}
+
+/* تنسيق التذييل */
+footer {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+/* تنسيقات الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .card {
+        margin: 1rem;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .table-responsive {
+        border-radius: 8px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+/* تحسينات إضافية */
+.form-floating > .form-control {
+    padding: 1rem 0.75rem;
+}
+
+.form-floating > label {
+    padding: 0.75rem;
+}
+
+.input-group-text {
+    background-color: var(--light);
+    border-color: var(--border);
+    color: var(--text-secondary);
+}
+
+/* تنسيق الأزرار الصغيرة */
+.btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+/* تنسيق البطاقات المضمنة */
+.card .card {
+    box-shadow: none;
+    border: 1px solid var(--border);
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.auth-header img {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.auth-header h1 {
+    font-size: 1.75rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.auth-header p {
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    height: calc(3.5rem + 2px);
+    padding: 0.75rem 3rem 0.75rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--border);
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+}
+
+.form-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-primary);
+    opacity: 0.7;
+    z-index: 4;
+    font-size: 1.2rem;
+}
+
+.password-toggle {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--text-primary);
+    opacity: 0.7;
+    z-index: 4;
+    transition: all 0.2s ease;
+}
+
+.password-toggle:hover {
+    color: var(--primary);
+    opacity: 1;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--danger);
+}
+
+.form-control.is-invalid {
+    border-color: var(--danger);
+    padding-left: 2.5rem;
+    background-image: none;
+}
+
+.form-control.is-valid {
+    border-color: var(--success);
+    padding-left: 2.5rem;
+    background-image: none;
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.password-requirements {
+    display: none;
+    background-color: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.password-requirements.show {
+    display: block;
+}
+
+.requirement {
+    margin-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.requirement:last-child {
+    margin-bottom: 0;
+}
+
+.requirement i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+}
+
+.requirement.valid {
+    color: var(--success);
+}
+
+.requirement.invalid {
+    color: var(--danger);
+}
+
+.back-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.back-link:hover {
+    color: var(--primary);
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.alert-success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+@media (max-width: 576px) {
+    .auth-container {
+        padding: 1.5rem;
+    }
+
+    .auth-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+    }
+}

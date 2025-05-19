@@ -1,0 +1,17 @@
+[2024-12-30 09:05:28] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:07:16] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:07:28] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:18:02] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_users"}
+[2024-12-30 09:30:11] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:34:16] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:35:42] خطأ في التحقق من الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.user_permissions' doesn't exist {"user_id":1,"permission":"view_revenues"}
+[2024-12-30 09:50:48] خطأ في جلب الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.permissions' doesn't exist {"user_id":1}
+[2024-12-30 09:56:20] خطأ في جلب الصلاحيات: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rental_db.permissions' doesn't exist {"user_id":1}
+[2024-12-30 11:02:01] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2024-12-30 11:03:00] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2024-12-30 11:03:09] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2024-12-30 11:03:15] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2024-12-30 11:08:47] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2024-12-30 11:09:01] خطأ في جلب بيانات الإيرادات: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'field list' 
+[2025-01-29 20:45:30] خطأ في معالجة المستخدم: اسم المستخدم أو البريد الإلكتروني مستخدم بالفعل {"action":"add","user_id":null,"post_data":{"action":"add","csrf_token":"e5faaad097b6b8751598c8c36a82b56088ddf22a032d66295e3edc41ab0131ff","username":"ali","full_name":"alia","email":"esm1774@gmail.com","password":"Aa@123456","role_id":"9"}}
+[2025-05-17 11:49:36] خطأ في معالجة المستخدم: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u402628076_app2`.`payments`, CONSTRAINT `payments_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `users` (`user_id`)) {"action":"delete","user_id":20,"post_data":{"action":"delete","user_id":"20","csrf_token":"49692db9ac26ff68f10df4196b8d28b43639688ace62766afcad32d98739dcf2"}}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شروط الاستخدام - EjarZone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 3px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .auth-buttons a {
+            padding: 8px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .login-btn {
+            color: #007BFF;
+            border: 1px solid #007BFF;
+        }
+
+        .login-btn:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .register-btn {
+            background-color: #007BFF;
+            color: white;
+            border: 1px solid #007BFF;
+        }
+
+        .register-btn:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 10px;
+                gap: 10px;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+
+            .auth-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .auth-buttons a {
+                text-align: center;
+            }
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 100px auto 50px;
+            padding: 20px;
+        }
+
+        .terms-section {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .terms-section h1 {
+            color: #007BFF;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        .terms-section h2 {
+            color: #333;
+            margin: 30px 0 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        .terms-section p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .terms-section ul {
+            padding-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .terms-section ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .terms-section .highlight {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-right: 4px solid #007BFF;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                padding: 15px;
+                margin-top: 80px;
+            }
+
+            .terms-section {
+                padding: 20px;
+            }
+
+            .terms-section h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="EjarZone Logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html#features">المميزات</a>
+            <a href="index.html#pricing">الأسعار</a>
+            <a href="index.html#about">عنّا</a>
+            <a href="index.html#contact">اتصل بنا</a>
+            <a href="index.html#faq">الأسئلة الشائعة</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login-btn">تسجيل الدخول</a>
+            <a href="#" class="register-btn">تسجيل جديد</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="terms-section">
+            <h1>شروط الاستخدام</h1>
+
+            <div class="highlight">
+                <p>مرحباً بك في EjarZone. باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط. يرجى قراءتها بعناية قبل استخدام المنصة.</p>
+            </div>
+
+            <h2>1. قبول الشروط</h2>
+            <p>باستخدامك لمنصة EjarZone، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على أي من هذه الشروط، يرجى عدم استخدام المنصة.</p>
+
+            <h2>2. الاشتراك والحساب</h2>
+            <ul>
+                <li>يجب أن تكون جميع المعلومات المقدمة عند التسجيل صحيحة ودقيقة.</li>
+                <li>أنت مسؤول عن الحفاظ على سرية معلومات حسابك.</li>
+                <li>يحق لنا إنهاء أو تعليق حسابك في حالة مخالفة شروط الاستخدام.</li>
+            </ul>
+
+            <h2>3. الخدمات والرسوم</h2>
+            <ul>
+                <li>تقدم المنصة خدمات إدارة العقارات وفقاً للباقات المختارة.</li>
+                <li>يتم تحصيل الرسوم شهرياً وفقاً للباقة المختارة.</li>
+                <li>يمكن تغيير الأسعار مع إشعار مسبق للمستخدمين.</li>
+            </ul>
+
+            <h2>4. حقوق الملكية الفكرية</h2>
+            <p>جميع المحتويات والمواد المعروضة في المنصة محمية بموجب حقوق الملكية الفكرية. لا يجوز نسخ أو توزيع أي محتوى دون إذن كتابي.</p>
+
+            <h2>5. خصوصية البيانات</h2>
+            <ul>
+                <li>نلتزم بحماية خصوصية بياناتك الشخصية.</li>
+                <li>يتم تخزين البيانات بشكل آمن ومشفر.</li>
+                <li>لا نشارك بياناتك مع أي طرف ثالث دون موافقتك.</li>
+            </ul>
+
+            <h2>6. المسؤولية والتعويض</h2>
+            <p>لا تتحمل EjarZone المسؤولية عن أي أضرار مباشرة أو غير مباشرة ناتجة عن استخدام المنصة. يوافق المستخدم على تعويض المنصة عن أي مطالبات ناتجة عن مخالفة شروط الاستخدام.</p>
+
+            <h2>7. التعديلات على الشروط</h2>
+            <p>نحتفظ بالحق في تعديل هذه الشروط في أي وقت. سيتم إخطار المستخدمين بأي تغييرات جوهرية.</p>
+
+            <div class="contact-info">
+                <h2>للتواصل معنا</h2>
+                <p>إذا كان لديك أي استفسارات حول شروط الاستخدام، يرجى التواصل معنا:</p>
+                <p><i class="fas fa-envelope"></i> البريد الإلكتروني: info@ejarzone.com</p>
+                <p><i class="fas fa-phone"></i> الهاتف: <span style="direction: ltr; display: inline-block;">+966 50 794 9591</span></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EjarZone. جميع الحقوق محفوظة.</p>
+        <a href="index.html">الرئيسية</a>
+        <a href="index.html#about">من نحن</a>
+        <a href="index.html#contact">اتصل بنا</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+    </footer>
+</body>
+</html>

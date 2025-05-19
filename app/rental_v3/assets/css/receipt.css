@@ -1,0 +1,175 @@
+/* تنسيقات عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* تنسيقات الطباعة */
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+
+    .receipt-container {
+        width: 21cm;  /* حجم A4 */
+        height: 29.7cm;
+        margin: 0 auto;
+        padding: 1cm;
+        background: white;
+        box-shadow: none;
+        page-break-after: always;
+    }
+
+    /* منع طباعة أي شيء خارج الإيصال */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+
+/* تنسيقات الإيصال */
+.receipt-container {
+    width: 21cm;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid #000;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.company-info-arabic {
+    text-align: right;
+}
+
+.company-info {
+    text-align: left;
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.company-details {
+    font-size: 14px;
+    color: #666;
+}
+
+.receipt-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+.receipt-title-english {
+    font-size: 20px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.receipt-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.receipt-number {
+    font-size: 16px;
+}
+
+.amount-box {
+    border: 2px solid #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.receipt-details {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.label[style*="text-align: left"] {
+    text-align: left !important;
+    direction: ltr;
+}
+
+.value {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    min-width: 200px;
+}
+
+.accountant-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+
+.accountant, .recipient {
+    text-align: center;
+}
+
+.stamp-section {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.stamp-image {
+    max-width: 150px;
+    height: auto;
+}
+
+.print-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.print-buttons button {
+    margin: 0 5px;
+}
+
+/* RTL Support */
+.rtl {
+    direction: rtl;
+    text-align: right;
+}

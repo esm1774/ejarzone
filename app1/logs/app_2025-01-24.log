@@ -1,0 +1,41 @@
+[2025-01-24 05:52:38] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 05:52:38] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"7266d4f290f6d7993449709edd35560c57652dd24910a2b94d420ae73e37f859","name":"ali","email":"ali@gmail.com","phone":"030303","password":"********","confirm_password":"********"}}
+[2025-01-24 05:52:38] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 05:54:43] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 05:54:43] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"alii","email":"ali@m.com","phone":"050","password":"********","confirm_password":"********"}}
+[2025-01-24 05:54:43] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:34] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:34] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:34] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","password":"كلمة المرور يجب أن تحتوي على 8 حروف على الأقل، وتتضمن حروف كبيرة وصغيرة، وأرقام، ورموز","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:54] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:54] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:54] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:55] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:55] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:55] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:55] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:55] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:55] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:56] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:56] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:56] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:03:57] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:03:57] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","name":"ali","email":"a@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:03:57] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"username":"حقل اسم المستخدم مطلوب","full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:19:56] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:19:56] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","username":"ali","name":"ali m","email":"esm@gmail.com","phone":"050939392","password":"********","confirm_password":"********"}}
+[2025-01-24 06:19:56] [WARNING] [register_handler.php:358] فشل التحقق من صحة البيانات {"errors":{"full_name":"حقل الاسم الكامل مطلوب"}}
+[2025-01-24 06:34:04] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:34:04] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","username":"alii","full_name":"ali","email":"n@g.aom","password":"********","confirm_password":"********"}}
+[2025-01-24 06:34:04] [INFO] [register_handler.php:107] تم بدء معاملة جديدة 
+[2025-01-24 06:34:04] [INFO] [register_handler.php:298] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"alii","password":"********","full_name":"ali","email":"n@g.aom"}}
+[2025-01-24 06:34:04] [INFO] [register_handler.php:121] تم تأكيد المعاملة بنجاح 
+[2025-01-24 06:34:04] [INFO] [register_handler.php:316] تم تسجيل المستخدم بنجاح: alii {"username":"alii"}
+[2025-01-24 06:34:04] [INFO] [register_handler.php:392] تم إكمال عملية التسجيل بنجاح للمستخدم: alii {"username":"alii"}
+[2025-01-24 06:44:34] [INFO] [register_handler.php:58] تم الاتصال بقاعدة البيانات بنجاح 
+[2025-01-24 06:44:34] [INFO] [register_handler.php:330] بدء معالجة طلب تسجيل جديد {"data":{"csrf_token":"821d28d4243a11c868c3a07f236fde2e55d30a2b9c9a79afe28fda3211c4d93c","username":"ali22","full_name":"alifd","email":"esm@gmail.com","password":"********","confirm_password":"********"}}
+[2025-01-24 06:44:34] [INFO] [register_handler.php:107] تم بدء معاملة جديدة 
+[2025-01-24 06:44:34] [INFO] [register_handler.php:298] محاولة إدراج مستخدم جديد {"sql":"\n                INSERT INTO users (\n                    username, \n                    password, \n                    full_name, \n                    email, \n                    created_at,\n                    status,\n                    role_id,\n                    phone,\n                    avatar\n                ) VALUES (\n                    :username,\n                    :password,\n                    :full_name,\n                    :email,\n                    NOW(),\n                    'نشط',\n                    4,\n                    NULL,\n                    NULL\n                )\n            ","params":{"username":"ali22","password":"********","full_name":"alifd","email":"esm@gmail.com"}}
+[2025-01-24 06:44:34] [INFO] [register_handler.php:121] تم تأكيد المعاملة بنجاح 
+[2025-01-24 06:44:34] [INFO] [register_handler.php:316] تم تسجيل المستخدم بنجاح: ali22 {"username":"ali22"}
+[2025-01-24 06:44:34] [INFO] [register_handler.php:392] تم إكمال عملية التسجيل بنجاح للمستخدم: ali22 {"username":"ali22"}
